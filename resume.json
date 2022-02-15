@@ -1,0 +1,582 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Julie Dubois",
+    "label": "Digital analyst / front-end developer / graphic designer",
+    "image": "",
+    "email": "jiu.design@gmail.com",
+    "phone": "+32 (0) 497 60 52 53",
+    "url": "https://www.iamjiu.eu/",
+    "summary": "In the graphic and multimedia industry mainly in the web world, I evolve as a graphic designer / web designer / front-end developer like a chameleon. Passionate about new technologies, I am constantly looking for ways to improve and gain in efficiency in projects, whether through a new tool or a new way of working.",
+    "location": {
+      "countryCode": "FR",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA",
+        "url": "https://www.linkedin.com/in/ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Positive Thinking Company",
+      "position": "Digital Analyst @ BNP Paribas Fortis",
+      "startDate": "2021-11-30",
+      "endDate": "",
+      "highlights": ["test1", "test2"],
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
+      "location": "Brussels Metropolitan Area"
+    },
+    {
+      "name": "Positive Thinking Company",
+      "position": "Webmaster / Conversion rate optimization & Customer Journey expert @ MediaMarkt",
+      "startDate": "2020-12-31",
+      "endDate": "2021-11-30",
+      "highlights": [],
+      "summary": "Work together with business and IT teams (make the bridge between the two,\nwith focus on Business)\nHelp the frontend team. Advise on development, coach and support where\nneeded.\n• A/B test and data driven decision to optimise the conversion rate & customer\njourney\nManage the website with a custom CMS and a ‘catalogue manager’ for the\nlisting of products",
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+    },
+    {
+      "name": "Positive Thinking Company",
+      "position": "Frontend Web Developer",
+      "startDate": "2020-10-31",
+      "endDate": "2020-12-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
+      "location": "Brussels Metropolitan Area"
+    },
+    {
+      "name": "Positive Thinking Company",
+      "position": "Front-end developer @ Proximus PICKX",
+      "startDate": "2020-02-28",
+      "endDate": "2020-10-31",
+      "highlights": [],
+      "summary": "Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content from the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each pages is created dynamically based on different feed of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score... use the same template. I was in charge to create and update the different template and element for the web application in a way to be reusable in every context.",
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+    },
+    {
+      "name": "Positive Thinking Company",
+      "position": "Front-end developer @ Proximus",
+      "startDate": "2018-01-31",
+      "endDate": "2020-02-28",
+      "highlights": [],
+      "summary": "Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom made library of html/css element. the role was to update the library with the new design so it’s applied everywhere in one shot and also creating new element. i also update structural component like for example the header, the goal was to make the javascript work with each different version (10 versions). a new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI complient.\n\nProximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand.",
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+    },
+    {
+      "name": "Positive Thinking Company",
+      "position": "Front-end developer / project manager @ Engie",
+      "startDate": "2016-12-31",
+      "endDate": "2018-01-31",
+      "highlights": [],
+      "summary": "Participation in the creation of the new website and rebranding of Engie\nMaintenance and updating of the various Engie websites\nMaintenance and creation of templates for e-mailing\nCreation of reusable macros in the Teamsite CMS to help the work of content editors\nTechnical analysis and testing of solutions developed for new web applications\nCreation of an innovative concept using the Engie box as well as various smart objects (watch, Sonos, Philips Hue) in order to create personalized atmospheres",
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+    },
+    {
+      "name": "Harvey Nash",
+      "position": "Webdesigner - integrator @ Proximus",
+      "startDate": "2013-08-31",
+      "endDate": "2016-11-30",
+      "highlights": [],
+      "summary": "Creating pages as an integrator\nWhen moving from Belgacom to Proximus, teamwork on the creation of a personalized css library (Zurb foundation type)",
+      "url": "https://www.linkedin.com/company/harvey-nash/"
+    },
+    {
+      "name": "WebDigitales",
+      "position": "Webmaster /  sales technician",
+      "startDate": "2012-06-30",
+      "endDate": "2012-12-31",
+      "highlights": [],
+      "summary": "Creation and maintenance of websites for multiple clients via various cms. (Drupal, prestashop)\nProject management and customer portfolio\nCustomization of the Redmine solution, project management software. (Ruby on Rails)",
+      "url": "https://www.linkedin.com/company/webdigitales/",
+      "location": "Ciney"
+    },
+    {
+      "name": "ProduWeb",
+      "position": "SEO specialist",
+      "startDate": "2011-03-31",
+      "endDate": "2012-06-30",
+      "highlights": [],
+      "summary": "Realization of SEO optimization in order to propel websites to the top of search engine rankings, implementation of various e-marketing strategies",
+      "url": "https://www.linkedin.com/company/produweb-agence-de-communication/"
+    },
+    {
+      "name": "ProduWeb",
+      "position": "Webdesigner",
+      "startDate": "2010-05-31",
+      "endDate": "2011-03-31",
+      "highlights": [],
+      "summary": "Site creation with Wordpress\nCreation of themes for Wordpress\nCreation of layout of internet pages\nFlash animation creation",
+      "url": "https://www.linkedin.com/company/produweb-agence-de-communication/"
+    },
+    {
+      "name": "STX-Med",
+      "position": "Web and Print Designer",
+      "startDate": "2009-12-31",
+      "endDate": "2010-05-31",
+      "highlights": [],
+      "summary": "Maintenance of existing websites (joomla)\nCreation of the company's e-commerce site (magento)\nCreation of user manuals for the products sold\nAchievements of paper communications (advertisements ...)\nVideo editing and retouching\nCreation of flash module for playing videos",
+      "url": "https://www.linkedin.com/company/cefaly/",
+      "location": "Liège, Région wallonne, Belgique"
+    },
+    {
+      "name": "Tagora",
+      "position": "Flash developer",
+      "startDate": "2009-10-31",
+      "endDate": "2009-12-31",
+      "highlights": [],
+      "summary": "Module/component creation with Flash",
+      "url": "https://www.linkedin.com/company/tagora/",
+      "location": "Bruxelles et périphérie"
+    },
+    {
+      "name": "Bureau347",
+      "position": "Web developer",
+      "startDate": "2008-12-31",
+      "endDate": "2009-05-31",
+      "highlights": [],
+      "summary": "Creation of sites made with flash\nCreation of themes / sites with the Wordpress CMS\nMaintenance in various html / css / js / php and Flash sites",
+      "url": "https://www.linkedin.com/company/bureau347/"
+    },
+    {
+      "name": "Polygone Group",
+      "position": "Web and Print Designer",
+      "startDate": "2007-08-31",
+      "endDate": "2007-09-30",
+      "highlights": [],
+      "summary": "Creation of various printed documents, Flash animations and web interface design",
+      "url": "https://www.linkedin.com/company/polygone-group/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "edX",
+      "area": "Data Science",
+      "studyType": "Harvard Professional certificate",
+      "startDate": "2019-12-31",
+      "endDate": "2020-12-31",
+      "score": "(Ongoing)",
+      "courses": []
+    },
+    {
+      "institution": "Technofutur TIC",
+      "area": "IT project management",
+      "studyType": "",
+      "startDate": "2013-12-31",
+      "endDate": "2013-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Technofutur TIC",
+      "area": "Veejaying",
+      "studyType": "",
+      "startDate": "2012-12-31",
+      "endDate": "2012-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Technocité",
+      "area": "Actionscript Developer",
+      "studyType": "Certificat",
+      "startDate": "2008-12-31",
+      "endDate": "2009-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "STE-Formations, ULG",
+      "area": "Webdeveloper",
+      "studyType": "Certificat",
+      "startDate": "2007-12-31",
+      "endDate": "2007-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Haute Ecole Albert Jacquard",
+      "area": "Graphic design",
+      "studyType": "",
+      "startDate": "2003-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Become A Conversion Rate Optimization (CRO) Expert",
+      "issuer": "Udemy",
+      "startDate": "2021-05-31",
+      "url": "https://www.udemy.com/certificate/UC-c16e9e93-fe3c-4653-83b5-82b9ae1e21fc/"
+    },
+    {
+      "name": "Advanced Google Analytics",
+      "issuer": "Google",
+      "startDate": "2021-04-30",
+      "url": "https://analytics.google.com/analytics/academy/certificate/ESheMtI5RT6lUv3VOI0xew"
+    },
+    {
+      "name": "Google Analytics for Beginners",
+      "issuer": "Google",
+      "startDate": "2021-03-31",
+      "url": "https://analytics.google.com/analytics/academy/certificate/qiUvrgJeQZOIBpEnfTMWIw"
+    },
+    {
+      "name": "Google tag manager fundamentals",
+      "issuer": "Google",
+      "startDate": "2021-01-31",
+      "url": "https://analytics.google.com/analytics/academy/certificate/eC7pijsYSniZUwmvucDfLA"
+    },
+    {
+      "name": "Data Science: Machine Learning (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2020-01-31",
+      "url": "https://courses.edx.org/certificates/d652799a08c9459caa63183b6eeb419a"
+    },
+    {
+      "name": "Data Science: Inference and Modeling (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2019-06-30",
+      "url": "https://courses.edx.org/certificates/27de5f3a863a46e88fc504b4d6239c3d"
+    },
+    {
+      "name": "Data Science: Linear Regression (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2019-06-30",
+      "url": "https://courses.edx.org/certificates/a2a2a5b722884632b7aa22fe60fe3bf8"
+    },
+    {
+      "name": "Data Science: Productivity Tools (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2019-06-30",
+      "url": "https://courses.edx.org/certificates/29680126a02b4cc29f7656b3d12b15e0"
+    },
+    {
+      "name": "Data Science: Wrangling (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2019-06-30",
+      "url": "https://courses.edx.org/certificates/ad5f6fe3c70645278328dbba86950d52"
+    },
+    {
+      "name": "Data Science: Probability (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2019-05-31",
+      "url": "https://courses.edx.org/certificates/cdadec8e809d4880ad6a93657af11935"
+    },
+    {
+      "name": "Data Science: Visualization (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2019-04-30",
+      "url": "https://courses.edx.org/certificates/e26aaf584ea74adb95b7fa2553d1c716"
+    },
+    {
+      "name": "Data Science: R Basics (HarvardX)",
+      "issuer": "edX",
+      "startDate": "2019-02-28",
+      "url": "https://courses.edx.org/certificates/9a5aa772f1f745bda20a086cc2895ebf"
+    },
+    {
+      "name": "Expert SEO",
+      "issuer": "Certification Expert SEO de l'association SEO Camp"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SEO",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programmation web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Projection Mapping",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Veejaying",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Flash Animation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Photography",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PSD to Wordpress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ProduWeb",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Photographie",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Analyse de données",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ActionScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apprentissage automatique",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Flash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Droit informatique",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web mobile",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CMS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Développement front-end",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "R",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Expérience utilisateur",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Wireframing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Feuilles de style en cascade (CSS)",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "fr",
+      "fluency": "Native Speaker"
+    },
+    {
+      "fluency": "Professional Working",
+      "language": "Anglais"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Espagnol"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Français"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Néerlandais"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Prisca Bothy",
+      "reference": "Le grand atout de Julie est qu'elle dispose d'un profil complet en Web Design et Developpement. De plus, elle maîtrise les différentes techniques de référencement ce qui lui permet de créer un site web de A à Z et d'en assurer une visibilité optimale."
+    },
+    {
+      "name": "Dimitri Mallié",
+      "reference": "Julie est le parfait \"Couteau Suisse\" du web. Du Graphisme au SEO en passant par l'intégration, elle est capable de réaliser et gérer un projet Web dans son intégralité.\r\n\r\nAvide d'apprendre, elle est toujours à l'écoute et prête à s'auto-former. C'est toujours aussi la première pour aider ses collègues."
+    }
+  ],
+  "projects": [{
+    "items": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "e.g. The World Wide Web"
+        },
+        "description": {
+          "type": "string",
+          "description": "Short summary of project. e.g. Collated works of 2017."
+        },
+        "highlights": {
+          "type": "array",
+          "description": "Specify multiple features",
+          "additionalItems": false,
+          "items": {
+            "type": "string",
+            "description": "e.g. Directs you close but not quite there"
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "description": "Specify special elements involved",
+          "additionalItems": false,
+          "items": {
+            "type": "string",
+            "description": "e.g. AngularJS"
+          }
+        },
+        "startDate": {
+          "$ref": "#/definitions/iso8601"
+        },
+        "endDate": {
+          "$ref": "#/definitions/iso8601"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
+        },
+        "roles": {
+          "type": "array",
+          "description": "Specify your role on this project or in company",
+          "additionalItems": false,
+          "items": {
+            "type": "string",
+            "description": "e.g. Team Lead, Speaker, Writer"
+          }
+        },
+        "entity": {
+          "type": "string",
+          "description": "Specify the relevant company/entity affiliations e.g. 'greenpeace', 'corporationXYZ'"
+        },
+        "type": {
+          "type": "string",
+          "description": " e.g. 'volunteering', 'presentation', 'talk', 'application', 'conference'"
+        }
+      }
+    }
+  }],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

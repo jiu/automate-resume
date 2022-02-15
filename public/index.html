@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Julie Dubois</title>
+    <meta name="description" content="In the graphic and multimedia industry mainly in the web world, I evolve as a graphic designer / web designer / front-end developer like a chameleon. Passionate about new technologies, I am constantly looking for ways to improve and gain in efficiency in projects, whether through a new tool or a new way of working." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <h1>Julie Dubois</h1>
+          <h2>Digital analyst / front-end developer / graphic designer</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:jiu.design@gmail.com">jiu.design@gmail.com</a>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              +32 (0) 497 60 52 53
+            </div>
+            <div>
+              <h4>Website</h4>
+              <a href="https://www.iamjiu.eu/">www.iamjiu.eu</a>
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>In the graphic and multimedia industry mainly in the web world, I evolve as a graphic designer / web designer / front-end developer like a chameleon. Passionate about new technologies, I am constantly looking for ways to improve and gain in efficiency in projects, whether through a new tool or a new way of working.</p>
+          </article>
+        </section>
+        <section id="profiles">
+          <h3>Profiles</h3>
+          <div class="grid-list">
+              <div>
+                  <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA/">ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA</a>
+              </div>
+          </div>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Positive Thinking Company</h4>
+                  <span>
+                    <time datetime="2021-11-30">Nov 2021</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Digital Analyst @ BNP Paribas Fortis</strong>
+                    <a href="https://www.linkedin.com/company/the-positive-thinking-company/">www.linkedin.com/company/the-positive-thinking-company</a>
+                </div>
+              </header>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>test1</li>
+                    <li>test2</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Positive Thinking Company</h4>
+                  <span>
+                    <time datetime="2020-12-31">Dec 2020</time> –
+                    <time datetime="2021-11-30">Nov 2021</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Webmaster / Conversion rate optimization &amp; Customer Journey expert @ MediaMarkt</strong>
+                    <a href="https://www.linkedin.com/company/the-positive-thinking-company/">www.linkedin.com/company/the-positive-thinking-company</a>
+                </div>
+              </header>
+                <p>Work together with business and IT teams (make the bridge between the two,
+    with focus on Business)
+    Help the frontend team. Advise on development, coach and support where
+    needed.
+    • A/B test and data driven decision to optimise the conversion rate &amp; customer
+    journey
+    Manage the website with a custom CMS and a ‘catalogue manager’ for the
+    listing of products</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Positive Thinking Company</h4>
+                  <span>
+                    <time datetime="2020-10-31">Oct 2020</time> –
+                    <time datetime="2020-12-31">Dec 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Frontend Web Developer</strong>
+                    <a href="https://www.linkedin.com/company/the-positive-thinking-company/">www.linkedin.com/company/the-positive-thinking-company</a>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Positive Thinking Company</h4>
+                  <span>
+                    <time datetime="2020-02-28">Feb 2020</time> –
+                    <time datetime="2020-10-31">Oct 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Front-end developer @ Proximus PICKX</strong>
+                    <a href="https://www.linkedin.com/company/the-positive-thinking-company/">www.linkedin.com/company/the-positive-thinking-company</a>
+                </div>
+              </header>
+                <p>Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content from the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each pages is created dynamically based on different feed of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score... use the same template. I was in charge to create and update the different template and element for the web application in a way to be reusable in every context.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Positive Thinking Company</h4>
+                  <span>
+                    <time datetime="2018-01-31">Jan 2018</time> –
+                    <time datetime="2020-02-28">Feb 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Front-end developer @ Proximus</strong>
+                    <a href="https://www.linkedin.com/company/the-positive-thinking-company/">www.linkedin.com/company/the-positive-thinking-company</a>
+                </div>
+              </header>
+                <p>Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom made library of html/css element. the role was to update the library with the new design so it’s applied everywhere in one shot and also creating new element. i also update structural component like for example the header, the goal was to make the javascript work with each different version (10 versions). a new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI complient.</p>
+    <p>Proximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand.</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Positive Thinking Company</h4>
+                  <span>
+                    <time datetime="2016-12-31">Dec 2016</time> –
+                    <time datetime="2018-01-31">Jan 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Front-end developer / project manager @ Engie</strong>
+                    <a href="https://www.linkedin.com/company/the-positive-thinking-company/">www.linkedin.com/company/the-positive-thinking-company</a>
+                </div>
+              </header>
+                <p>Participation in the creation of the new website and rebranding of Engie
+    Maintenance and updating of the various Engie websites
+    Maintenance and creation of templates for e-mailing
+    Creation of reusable macros in the Teamsite CMS to help the work of content editors
+    Technical analysis and testing of solutions developed for new web applications
+    Creation of an innovative concept using the Engie box as well as various smart objects (watch, Sonos, Philips Hue) in order to create personalized atmospheres</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Harvey Nash</h4>
+                  <span>
+                    <time datetime="2013-08-31">Aug 2013</time> –
+                    <time datetime="2016-11-30">Nov 2016</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Webdesigner - integrator @ Proximus</strong>
+                    <a href="https://www.linkedin.com/company/harvey-nash/">www.linkedin.com/company/harvey-nash</a>
+                </div>
+              </header>
+                <p>Creating pages as an integrator
+    When moving from Belgacom to Proximus, teamwork on the creation of a personalized css library (Zurb foundation type)</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>WebDigitales</h4>
+                  <span>
+                    <time datetime="2012-06-30">Jun 2012</time> –
+                    <time datetime="2012-12-31">Dec 2012</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Webmaster /  sales technician</strong>
+                    <a href="https://www.linkedin.com/company/webdigitales/">www.linkedin.com/company/webdigitales</a>
+                </div>
+              </header>
+                <p>Creation and maintenance of websites for multiple clients via various cms. (Drupal, prestashop)
+    Project management and customer portfolio
+    Customization of the Redmine solution, project management software. (Ruby on Rails)</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>ProduWeb</h4>
+                  <span>
+                    <time datetime="2011-03-31">Mar 2011</time> –
+                    <time datetime="2012-06-30">Jun 2012</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>SEO specialist</strong>
+                    <a href="https://www.linkedin.com/company/produweb-agence-de-communication/">www.linkedin.com/company/produweb-agence-de-communication</a>
+                </div>
+              </header>
+                <p>Realization of SEO optimization in order to propel websites to the top of search engine rankings, implementation of various e-marketing strategies</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>ProduWeb</h4>
+                  <span>
+                    <time datetime="2010-05-31">May 2010</time> –
+                    <time datetime="2011-03-31">Mar 2011</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Webdesigner</strong>
+                    <a href="https://www.linkedin.com/company/produweb-agence-de-communication/">www.linkedin.com/company/produweb-agence-de-communication</a>
+                </div>
+              </header>
+                <p>Site creation with Wordpress
+    Creation of themes for Wordpress
+    Creation of layout of internet pages
+    Flash animation creation</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>STX-Med</h4>
+                  <span>
+                    <time datetime="2009-12-31">Dec 2009</time> –
+                    <time datetime="2010-05-31">May 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web and Print Designer</strong>
+                    <a href="https://www.linkedin.com/company/cefaly/">www.linkedin.com/company/cefaly</a>
+                </div>
+              </header>
+                <p>Maintenance of existing websites (joomla)
+    Creation of the company's e-commerce site (magento)
+    Creation of user manuals for the products sold
+    Achievements of paper communications (advertisements ...)
+    Video editing and retouching
+    Creation of flash module for playing videos</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Tagora</h4>
+                  <span>
+                    <time datetime="2009-10-31">Oct 2009</time> –
+                    <time datetime="2009-12-31">Dec 2009</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Flash developer</strong>
+                    <a href="https://www.linkedin.com/company/tagora/">www.linkedin.com/company/tagora</a>
+                </div>
+              </header>
+                <p>Module/component creation with Flash</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Bureau347</h4>
+                  <span>
+                    <time datetime="2008-12-31">Dec 2008</time> –
+                    <time datetime="2009-05-31">May 2009</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web developer</strong>
+                    <a href="https://www.linkedin.com/company/bureau347/">www.linkedin.com/company/bureau347</a>
+                </div>
+              </header>
+                <p>Creation of sites made with flash
+    Creation of themes / sites with the Wordpress CMS
+    Maintenance in various html / css / js / php and Flash sites</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Polygone Group</h4>
+                  <span>
+                    <time datetime="2007-08-31">Aug 2007</time> –
+                    <time datetime="2007-09-30">Sep 2007</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Web and Print Designer</strong>
+                    <a href="https://www.linkedin.com/company/polygone-group/">www.linkedin.com/company/polygone-group</a>
+                </div>
+              </header>
+                <p>Creation of various printed documents, Flash animations and web interface design</p>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>edX</h4>
+                  <span>
+                    <time datetime="2019-12-31">Dec 2019</time> –
+                    <time datetime="2020-12-31">Dec 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Data Science</strong>
+                </div>
+              </header>
+                <p>Harvard Professional certificate</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Technofutur TIC</h4>
+                  <span>
+                    <time datetime="2013-12-31">Dec 2013</time> –
+                    <time datetime="2013-12-31">Dec 2013</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>IT project management</strong>
+                </div>
+              </header>
+                
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Technofutur TIC</h4>
+                  <span>
+                    <time datetime="2012-12-31">Dec 2012</time> –
+                    <time datetime="2012-12-31">Dec 2012</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Veejaying</strong>
+                </div>
+              </header>
+                
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Technocité</h4>
+                  <span>
+                    <time datetime="2008-12-31">Dec 2008</time> –
+                    <time datetime="2009-12-31">Dec 2009</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Actionscript Developer</strong>
+                </div>
+              </header>
+                <p>Certificat</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>STE-Formations, ULG</h4>
+                  <span>
+                    <time datetime="2007-12-31">Dec 2007</time> –
+                    <time datetime="2007-12-31">Dec 2007</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Webdeveloper</strong>
+                </div>
+              </header>
+                <p>Certificat</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Haute Ecole Albert Jacquard</h4>
+                  <span>
+                    <time datetime="2003-12-31">Dec 2003</time> –
+                    <time datetime="2006-12-31">Dec 2006</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Graphic design</strong>
+                </div>
+              </header>
+                
+            </article>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="">Invalid Date</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                  </span>
+                </div>
+              </header>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>CSS</h4>
+            </div>
+            <div>
+                <h4>WordPress</h4>
+            </div>
+            <div>
+                <h4>Web Design</h4>
+            </div>
+            <div>
+                <h4>jQuery</h4>
+            </div>
+            <div>
+                <h4>JavaScript</h4>
+            </div>
+            <div>
+                <h4>HTML</h4>
+            </div>
+            <div>
+                <h4>SEO</h4>
+            </div>
+            <div>
+                <h4>PHP</h4>
+            </div>
+            <div>
+                <h4>Programmation web</h4>
+            </div>
+            <div>
+                <h4>Mobile development</h4>
+            </div>
+            <div>
+                <h4>SASS</h4>
+            </div>
+            <div>
+                <h4>User Interface Design</h4>
+            </div>
+            <div>
+                <h4>Projection Mapping</h4>
+            </div>
+            <div>
+                <h4>Veejaying</h4>
+            </div>
+            <div>
+                <h4>HTML5</h4>
+            </div>
+            <div>
+                <h4>Flash Animation</h4>
+            </div>
+            <div>
+                <h4>Photography</h4>
+            </div>
+            <div>
+                <h4>PSD to Wordpress</h4>
+            </div>
+            <div>
+                <h4>JSON</h4>
+            </div>
+            <div>
+                <h4>AngularJS</h4>
+            </div>
+            <div>
+                <h4>ProduWeb</h4>
+            </div>
+            <div>
+                <h4>Adobe Photoshop</h4>
+            </div>
+            <div>
+                <h4>Photographie</h4>
+            </div>
+            <div>
+                <h4>Analyse de données</h4>
+            </div>
+            <div>
+                <h4>ActionScript</h4>
+            </div>
+            <div>
+                <h4>Apprentissage automatique</h4>
+            </div>
+            <div>
+                <h4>Flash</h4>
+            </div>
+            <div>
+                <h4>Droit informatique</h4>
+            </div>
+            <div>
+                <h4>Web mobile</h4>
+            </div>
+            <div>
+                <h4>Adobe Illustrator</h4>
+            </div>
+            <div>
+                <h4>CMS</h4>
+            </div>
+            <div>
+                <h4>Web Development</h4>
+            </div>
+            <div>
+                <h4>Git</h4>
+            </div>
+            <div>
+                <h4>Développement front-end</h4>
+            </div>
+            <div>
+                <h4>R</h4>
+            </div>
+            <div>
+                <h4>Expérience utilisateur</h4>
+            </div>
+            <div>
+                <h4>Wireframing</h4>
+            </div>
+            <div>
+                <h4>Feuilles de style en cascade (CSS)</h4>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>fr</h4>
+              Native Speaker
+            </div>
+            <div>
+                <h4>Anglais</h4>
+              Professional Working
+            </div>
+            <div>
+                <h4>Espagnol</h4>
+              Elementary
+            </div>
+            <div>
+                <h4>Français</h4>
+              Native Speaker
+            </div>
+            <div>
+                <h4>Néerlandais</h4>
+              Elementary
+            </div>
+        </div>
+      </section>
+      <section id="references">
+        <h3>References</h3>
+        <div class="stack">
+              <blockquote>
+                <p>Le grand atout de Julie est qu'elle dispose d'un profil complet en Web Design et Developpement. De plus, elle maîtrise les différentes techniques de référencement ce qui lui permet de créer un site web de A à Z et d'en assurer une visibilité optimale.</p>
+                  <p>
+                    <cite>Prisca Bothy</cite>
+                  </p>
+              </blockquote>
+              <blockquote>
+                <p>Julie est le parfait &quot;Couteau Suisse&quot; du web. Du Graphisme au SEO en passant par l'intégration, elle est capable de réaliser et gérer un projet Web dans son intégralité.</p>
+    <p>Avide d'apprendre, elle est toujours à l'écoute et prête à s'auto-former. C'est toujours aussi la première pour aider ses collègues.</p>
+                  <p>
+                    <cite>Dimitri Mallié</cite>
+                  </p>
+              </blockquote>
+        </div>
+      </section>
+  </body>
+</html>
