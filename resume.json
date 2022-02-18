@@ -1,5 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  },
   "basics": {
     "name": "Julie Dubois",
     "label": "Digital analyst / front-end developer / graphic designer",
@@ -492,73 +496,5 @@
       "name": "Dimitri Mallié",
       "reference": "Julie est le parfait \"Couteau Suisse\" du web. Du Graphisme au SEO en passant par l'intégration, elle est capable de réaliser et gérer un projet Web dans son intégralité.\r\n\r\nAvide d'apprendre, elle est toujours à l'écoute et prête à s'auto-former. C'est toujours aussi la première pour aider ses collègues."
     }
-  ],
-  "projects": [
-    {
-      "items": {
-        "type": "object",
-        "additionalProperties": true,
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "e.g. The World Wide Web"
-          },
-          "description": {
-            "type": "string",
-            "description": "Short summary of project. e.g. Collated works of 2017."
-          },
-          "highlights": {
-            "type": "array",
-            "description": "Specify multiple features",
-            "additionalItems": false,
-            "items": {
-              "type": "string",
-              "description": "e.g. Directs you close but not quite there"
-            }
-          },
-          "keywords": {
-            "type": "array",
-            "description": "Specify special elements involved",
-            "additionalItems": false,
-            "items": {
-              "type": "string",
-              "description": "e.g. AngularJS"
-            }
-          },
-          "startDate": {
-            "$ref": "#/definitions/iso8601"
-          },
-          "endDate": {
-            "$ref": "#/definitions/iso8601"
-          },
-          "url": {
-            "type": "string",
-            "format": "uri",
-            "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
-          },
-          "roles": {
-            "type": "array",
-            "description": "Specify your role on this project or in company",
-            "additionalItems": false,
-            "items": {
-              "type": "string",
-              "description": "e.g. Team Lead, Speaker, Writer"
-            }
-          },
-          "entity": {
-            "type": "string",
-            "description": "Specify the relevant company/entity affiliations e.g. 'greenpeace', 'corporationXYZ'"
-          },
-          "type": {
-            "type": "string",
-            "description": " e.g. 'volunteering', 'presentation', 'talk', 'application', 'conference'"
-          }
-        }
-      }
-    }
-  ],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+  ]
 }

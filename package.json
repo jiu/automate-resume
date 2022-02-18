@@ -4,11 +4,13 @@
     "convert": "fluentcv CONVERT resume.json TO resumeFresh.json",
     "validate": "fluentcv VALIDATE resume.json resumeFresh.json",
     "build": "fluentcv BUILD resume.json",
-    "export": "resume export"
+    "export html": "resume export public/resume.html --format html --theme .",
+    "serve": "resume serve --theme ."
   },
   "dependencies": {
     "fluentcv": "^1.9.0-beta",
-    "resume-cli": "^3.0.6"
+    "resume-cli": "^3.0.6",
+    "handlebars": "^2.0.0-alpha.4"
   },
   "name": "automate-resume",
   "version": "1.0.0",
