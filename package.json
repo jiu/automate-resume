@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "analyze": "fluentcv analyse resume.json",
+    "convert": "fluentcv convert resume.json to resumeFresh.json",
+    "validate": "fluentcv validate resume.json resumeFresh.json",
+    "export": "resume export"
+  },
+  "dependencies": {
+    "resume-cli": "^3.0.6"
+  }
+}
