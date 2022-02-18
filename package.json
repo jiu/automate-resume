@@ -1,11 +1,27 @@
 {
   "scripts": {
-    "analyze": "fluentcv analyse resume.json",
-    "convert": "fluentcv convert resume.json to resumeFresh.json",
-    "validate": "fluentcv validate resume.json resumeFresh.json",
+    "analyze": "fluentcv ANALYZE resume.json resumeFresh.json",
+    "convert": "fluentcv CONVERT resume.json TO resumeFresh.json",
+    "validate": "fluentcv VALIDATE resume.json resumeFresh.json",
+    "build": "fluentcv BUILD resume.json",
     "export": "resume export"
   },
   "dependencies": {
+    "fluentcv": "^1.9.0-beta",
     "resume-cli": "^3.0.6"
-  }
+  },
+  "name": "automate-resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiu/automate-resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiu/automate-resume/issues"
+  },
+  "homepage": "https://github.com/jiu/automate-resume#readme",
+  "description": ""
 }

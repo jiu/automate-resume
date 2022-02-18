@@ -9,26 +9,38 @@
     "url": "https://www.iamjiu.eu/",
     "summary": "In the graphic and multimedia industry mainly in the web world, I evolve as a graphic designer / web designer / front-end developer like a chameleon. Passionate about new technologies, I am constantly looking for ways to improve and gain in efficiency in projects, whether through a new tool or a new way of working.",
     "location": {
-      "countryCode": "FR",
-      "address": ""
+      "city": "Ath",
+      "countryCode": "BE"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA",
         "url": "https://www.linkedin.com/in/ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA/"
       },
-      
+      {
+        "url": "https://github.com/jiu",
+        "network": "Github"
+      },
+      {
+        "url": "https://www.instagram.com/jiu_iam/",
+        "network": "Instagram"
+      }
     ]
   },
   "work": [
     {
+      "pinned": true,
       "name": "Positive Thinking Company",
-      "position": "Digital Analyst @ BNP Paribas Fortis",
+      "position": "Digital analyst (Mobile squad) @ BNP Paribas Fortis",
       "startDate": "2021-11-30",
-      "endDate": "",
-      "highlights": [],
-      "summary": "Analysing data and formulating strategic advice Create tagging plan and report for new or updated features Performing different analyses as part of continual improvement on the basis of quantitative, qualitative and usability analytics, as well as processing and visualising data"
+      "highlights": [
+        "Achievements: Work in a different role, changing my mind from dev to marketing",
+        "Skills used: Adobe Analytics, Contentsquare",
+        "Activity area: Banking",
+        "Team: 10",
+        "BNP Paribas Fortis is the Belgian bank of the BNP Paribas group, mainly active in the retail and corporate market in Belgium"
+      ],
+      "summary": "Analysing data and formulating strategic advice\n\nCreate tagging plan and report for new or updated features\n\nPerforming different analyses as part of continual improvement on the basis of quantitative, qualitative and usability analytics, as well as processing and visualising data",
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
       "location": "Brussels Metropolitan Area"
     },
@@ -37,8 +49,14 @@
       "position": "Webmaster / Conversion rate optimization & Customer Journey expert @ MediaMarkt",
       "startDate": "2020-12-31",
       "endDate": "2021-11-30",
-      "highlights": [],
-      "summary": "Work together with business and IT teams (make the bridge between the two,\nwith focus on Business)\nHelp the frontend team. Advise on development, coach and support where\nneeded.\n• A/B test and data driven decision to optimise the conversion rate & customer\njourney\nManage the website with a custom CMS and a ‘catalogue manager’ for the\nlisting of products",
+      "highlights": [
+        "Achievements: Work in an international team, learn fast new skills and improvise a lot of creative solutions in a locked working environment",
+        "Skills used: HTML - SASS - JavaScript - Fact-finder - Google Tag Manager - Google analytics",
+        "MediaMarkt, is a German store chain specializing in consumer electronics and household appliances, number 1 in Europe",
+        "Activity area: E-commerce",
+        "Team: 15"
+      ],
+      "summary": "A/B test and data driven decision to optimise the conversion rate & customer journey\n\nAnalyse the global user experience across different entry point on the website (homepage, landing page, category page)\n\nWork together with business and IT teams (make the bridge between the two, with focus on Business)\n\nHelp the frontend team. Advise on development, coach and support where needed.\n\nManage the website with a custom CMS and a catalog manager for the listing of product",
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
     },
     {
@@ -55,8 +73,14 @@
       "position": "Front-end developer @ Proximus PICKX",
       "startDate": "2020-02-28",
       "endDate": "2020-10-31",
-      "highlights": [],
-      "summary": "Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content from the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each pages is created dynamically based on different feed of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score... use the same template. I was in charge to create and update the different template and element for the web application in a way to be reusable in every context.",
+      "highlights": [
+        "Achievements: Learn a new workflow with development servers only accessible by SSH and a huge use of git",
+        "Skills used: HTML - SASS - Bootstrap - Javascript - PHP - Twig - Git - Scrum - Jira",
+        "Pickx is the Proximus media platform available on the Internet",
+        "Activity area: Telecommunication",
+        "Team: 20"
+      ],
+      "summary": "Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content of the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each page is created dynamically based on different feeds of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score ... use the same template. I was in charge to create and update the different template and element of the web application in a way to be reusable in every context.",
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
     },
     {
@@ -64,8 +88,14 @@
       "position": "Front-end developer @ Proximus",
       "startDate": "2018-01-31",
       "endDate": "2020-02-28",
-      "highlights": [],
-      "summary": "Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom made library of html/css element. the role was to update the library with the new design so it’s applied everywhere in one shot and also creating new element. i also update structural component like for example the header, the goal was to make the javascript work with each different version (10 versions). a new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI complient.\n\nProximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand.",
+      "highlights": [
+        "Achievements: Working for 2 teams and managing to keep the deadlines",
+        "Skills used: HTML - SASS - Foundation 5 - Javascript - Razor - Magnolia CMS - Git - Scrum - Jira",
+        "Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.",
+        "Activity area: Telecommunication",
+        "Team: 40"
+      ],
+      "summary": "Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom-made library of HTML/css elements. The role was to update the library with the new design so it’s applied everywhere in one shot and also creating new elements. I also update structural components like for example the header, the goal was to make the JavaScript work with each different version (10 versions). A new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI compliant.\n\nProximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand.",
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
     },
     {
@@ -73,7 +103,13 @@
       "position": "Front-end developer / project manager @ Engie",
       "startDate": "2016-12-31",
       "endDate": "2018-01-31",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Improvement of my front-end skills, basic learning of IoT manipulation",
+        "Skills used: HTML - SASS - Javascript - image edition - PHP - Wordpress - FTL (freemarker) - Teamsite - Smartfocus - API - Android development - GIT - NodeJS - Scrum - Google Analytics - Jira",
+        "Engie is a French energy industrial group.",
+        "Activity area: Energy",
+        "Team: 20"
+      ],
       "summary": "Participation in the creation of the new website and rebranding of Engie\nMaintenance and updating of the various Engie websites\nMaintenance and creation of templates for e-mailing\nCreation of reusable macros in the Teamsite CMS to help the work of content editors\nTechnical analysis and testing of solutions developed for new web applications\nCreation of an innovative concept using the Engie box as well as various smart objects (watch, Sonos, Philips Hue) in order to create personalized atmospheres",
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
     },
@@ -82,7 +118,13 @@
       "position": "Webdesigner - integrator @ Proximus",
       "startDate": "2013-08-31",
       "endDate": "2016-11-30",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Improved my long-term vision for the application of HTML/CSS components to create reusable objects",
+        "Skills used: HTML - SASS - Foundation 5 - Javascript - AngularJS - Razor - video edition - PHP - Wordpress - Teamsite - Magnolia CMS - SVN - NodeJS",
+        "Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.",
+        "Activity area: Telecommunication",
+        "Team: 30"
+      ],
       "summary": "Creating pages as an integrator\nWhen moving from Belgacom to Proximus, teamwork on the creation of a personalized css library (Zurb foundation type)",
       "url": "https://www.linkedin.com/company/harvey-nash/"
     },
@@ -91,7 +133,13 @@
       "position": "Webmaster /  sales technician",
       "startDate": "2012-06-30",
       "endDate": "2012-12-31",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Learning different CMS and discovering Ruby, improving my customer portfolio management",
+        "skills used: Drupal – Prestashop – Ruby – Rails - PHP – HTML – css -JavaScript - Google Analytics - Google Adwords",
+        "Webdigitales is a website development & online sales company",
+        "Activity area: Information technologies and services",
+        "Team: 5"
+      ],
       "summary": "Creation and maintenance of websites for multiple clients via various cms. (Drupal, prestashop)\nProject management and customer portfolio\nCustomization of the Redmine solution, project management software. (Ruby on Rails)",
       "url": "https://www.linkedin.com/company/webdigitales/",
       "location": "Ciney"
@@ -101,7 +149,13 @@
       "position": "SEO specialist",
       "startDate": "2011-03-31",
       "endDate": "2012-06-30",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Learning natural referencing and analysis tools, obtaining the SEO expert certificate",
+        "Skills used: Google Analytics, woorank, SEMrush, SEO, customer management",
+        "ProduWeb is a specialist in SEO websites on Google",
+        "Activity area: Internet",
+        "Team: 3"
+      ],
       "summary": "Realization of SEO optimization in order to propel websites to the top of search engine rankings, implementation of various e-marketing strategies",
       "url": "https://www.linkedin.com/company/produweb-agence-de-communication/"
     },
@@ -110,7 +164,13 @@
       "position": "Webdesigner",
       "startDate": "2010-05-31",
       "endDate": "2011-03-31",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Improvement of customer management and work methodology",
+        "Skills used: design - Wordpress - Flash – PHP – HTML - css - JavaScript, customer management - Google Analytics - Google Adwords",
+        "Produweb is a web agency specialising in web marketing & technologies",
+        "Activity area: Internet",
+        "Team: 10"
+      ],
       "summary": "Site creation with Wordpress\nCreation of themes for Wordpress\nCreation of layout of internet pages\nFlash animation creation",
       "url": "https://www.linkedin.com/company/produweb-agence-de-communication/"
     },
@@ -119,7 +179,13 @@
       "position": "Web and Print Designer",
       "startDate": "2009-12-31",
       "endDate": "2010-05-31",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Management of a double job as a print/web graphic designer and developer",
+        "Skills used: Design - Print - Magento - Joomla - Flash - Video editing - Suite Adobe - Google Analytics - Google Adwords",
+        "Cefaly is the company creator of a neurostimulation device to treat migraines",
+        "Activity area: Medical equipments",
+        "Team: 8"
+      ],
       "summary": "Maintenance of existing websites (joomla)\nCreation of the company's e-commerce site (magento)\nCreation of user manuals for the products sold\nAchievements of paper communications (advertisements ...)\nVideo editing and retouching\nCreation of flash module for playing videos",
       "url": "https://www.linkedin.com/company/cefaly/",
       "location": "Liège, Région wallonne, Belgique"
@@ -129,7 +195,12 @@
       "position": "Flash developer",
       "startDate": "2009-10-31",
       "endDate": "2009-12-31",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Discovery of the freelance profession, respect of deadlines",
+        "Skills used: Flash - actionscript - Suite Adobe",
+        "Tagora is a multi-channel digital agency allowing communication on all media for its clients",
+        "Activity area: Marketing and Advertising"
+      ],
       "summary": "Module/component creation with Flash",
       "url": "https://www.linkedin.com/company/tagora/",
       "location": "Bruxelles et périphérie"
@@ -139,7 +210,13 @@
       "position": "Web developer",
       "startDate": "2008-12-31",
       "endDate": "2009-05-31",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Learning how to make a ‘pixel perfect’ web page compared to the original design",
+        "Skills used: Wordpress – HTML - css - javascript - Flash - design - paper vision 3D - augmented reality - Suite Adobe",
+        "Bureau347 is a digital agency specialising in website creation and advertising",
+        "Activity area: Internet",
+        "Team: 6"
+      ],
       "summary": "Creation of sites made with flash\nCreation of themes / sites with the Wordpress CMS\nMaintenance in various html / css / js / php and Flash sites",
       "url": "https://www.linkedin.com/company/bureau347/"
     },
@@ -148,7 +225,13 @@
       "position": "Web and Print Designer",
       "startDate": "2007-08-31",
       "endDate": "2007-09-30",
-      "highlights": [],
+      "highlights": [
+        "Achievements: Learning PHP, putting the Adobe suite into practice",
+        "Skills used: Print - HTML - css - PHP - design - Suite Adobe",
+        "Polygone is a multi-support communication agency",
+        "Activity area: Marketing and Advertising",
+        "Team: 10"
+      ],
       "summary": "Creation of various printed documents, Flash animations and web interface design",
       "url": "https://www.linkedin.com/company/polygone-group/"
     }
@@ -161,8 +244,10 @@
       "studyType": "Harvard Professional certificate",
       "startDate": "2019-12-31",
       "endDate": "2020-12-31",
-      "score": "(Ongoing)",
-      "courses": []
+      "score": "",
+      "courses": [
+        "Fundamental R programming skills, Statistical concepts such as probability, inference, and modelling and how to apply them in practice, Gain experience with the tidyverse, including data visualisation with ggplot2 and data wrangling with dplyr, Become familiar with essential tools for practising data scientists such as Unix/Linux, git and GitHub, and RStudio, Implement machine learning algorithms, In- depth knowledge of fundamental data science concepts through motivating real-world case studies"
+      ]
     },
     {
       "institution": "Technofutur TIC",
@@ -171,7 +256,9 @@
       "startDate": "2013-12-31",
       "endDate": "2013-12-31",
       "score": "",
-      "courses": []
+      "courses": [
+        "Project management methodologies, Technical analysis with UML 2.0, Project monitoring methodology with Agile and SCRUM, IT project management, Service and resource management with ITIL"
+      ]
     },
     {
       "institution": "Technofutur TIC",
@@ -180,7 +267,9 @@
       "startDate": "2012-12-31",
       "endDate": "2012-12-31",
       "score": "",
-      "courses": []
+      "courses": [
+        "Visual creation with Modul8 software and Resolume Avenue"
+      ]
     },
     {
       "institution": "Technocité",
@@ -189,7 +278,9 @@
       "startDate": "2008-12-31",
       "endDate": "2009-12-31",
       "score": "",
-      "courses": []
+      "courses": [
+        "Flash video animation training, dynamic application creation, ActionScript 3: object oriented"
+      ]
     },
     {
       "institution": "STE-Formations, ULG",
@@ -198,12 +289,14 @@
       "startDate": "2007-12-31",
       "endDate": "2007-12-31",
       "score": "",
-      "courses": []
+      "courses": [
+        ""
+      ]
     },
     {
       "institution": "Haute Ecole Albert Jacquard",
       "area": "Graphic design",
-      "studyType": "",
+      "studyType": "Bachelors",
       "startDate": "2003-12-31",
       "endDate": "2006-12-31",
       "score": "",
@@ -292,66 +385,101 @@
   "publications": [],
   "skills": [
     {
-      "name": "Web",
+      "keywords": [
+        "HTML",
+        "CSS/SASS/SCSS",
+        "Javascript",
+        "ReactJS",
+        "Zurb Foundation",
+        "Bootstrap",
+        "Bulma",
+        "GatsbyJS",
+        "jQuery",
+        "GraphQL",
+        "Styled component"
+      ],
       "level": "",
-      "keywords": ["CSS","Wordpress", "Web Design", "jQuery", "JavaScript", "HTML", "PHP", "Mobile development", "SASS", "User Interface Design", "HTML5", "JSON", "AngularJS"]
-    }
-    {
-      "name": "Marketing",
-      "level": "",
-      "keywords": ["SEO", "Analyse de données"]
+      "name": "Front-end"
     },
     {
-      "name":, "Image"
+      "keywords": [
+        "PHP",
+        "MySQL",
+        "Python",
+        "Wordpress",
+        "Drupal",
+        "Magento",
+        "Prestashop"
+      ],
       "level": "",
-      "keywords": ["Projection Mapping", "Veejaying", "Flash Animation", "Photography", "Adobe creative suite"]
+      "name": "BACK-END"
     },
     {
-      "name": "CMS",
+      "keywords": [
+        "Responsive Development",
+        "Package Management & automation",
+        "webpack",
+        "node/npm",
+        "grunt",
+        "gulp",
+        "Versioning: Git, SVN",
+        "Testing (Jest / Enzyme)"
+      ],
       "level": "",
-      "keywords": []
+      "name": "WORKFLOW"
     },
     {
-      "name": "Git",
+      "keywords": [
+        "Certied SEO expert (June 2011)",
+        "Google Tag Manager",
+        "Google analytics",
+        "Adobe analytics",
+        ""
+      ],
       "level": "",
-      "keywords": []
+      "name": "Marketing"
     },
     {
-      "name": "R",
+      "keywords": [
+        "Suite Adobe",
+        "Sketch",
+        "Photography",
+        "Video",
+        "Illustration",
+        "Projection Mapping",
+        "Veejaying",
+        "3d modeling"
+      ],
       "level": "",
-      "keywords": []
+      "name": "Design"
     },
     {
-      "name": "Expérience utilisateur",
+      "keywords": [
+        "R",
+        "Python",
+        "data analysis",
+        "ggplot"
+      ],
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Wireframing",
-      "level": "",
-      "keywords": []
+      "name": "Data science / AI"
     }
   ],
   "languages": [
     {
-      "language": "fr",
-      "fluency": "Native Speaker"
-    },
-    {
       "fluency": "Professional Working",
-      "language": "Anglais"
+      "language": "English"
     },
     {
       "fluency": "Elementary",
-      "language": "Espagnol"
+      "language": "Spanish"
     },
     {
       "fluency": "Native Speaker",
-      "language": "Français"
+      "language": "French"
     },
     {
       "fluency": "Elementary",
-      "language": "Néerlandais"
+      "language": "Dutch"
     }
   ],
   "interests": [],
@@ -365,68 +493,70 @@
       "reference": "Julie est le parfait \"Couteau Suisse\" du web. Du Graphisme au SEO en passant par l'intégration, elle est capable de réaliser et gérer un projet Web dans son intégralité.\r\n\r\nAvide d'apprendre, elle est toujours à l'écoute et prête à s'auto-former. C'est toujours aussi la première pour aider ses collègues."
     }
   ],
-  "projects": [{
-    "items": {
-      "type": "object",
-      "additionalProperties": true,
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "e.g. The World Wide Web"
-        },
-        "description": {
-          "type": "string",
-          "description": "Short summary of project. e.g. Collated works of 2017."
-        },
-        "highlights": {
-          "type": "array",
-          "description": "Specify multiple features",
-          "additionalItems": false,
-          "items": {
+  "projects": [
+    {
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "name": {
             "type": "string",
-            "description": "e.g. Directs you close but not quite there"
-          }
-        },
-        "keywords": {
-          "type": "array",
-          "description": "Specify special elements involved",
-          "additionalItems": false,
-          "items": {
+            "description": "e.g. The World Wide Web"
+          },
+          "description": {
             "type": "string",
-            "description": "e.g. AngularJS"
-          }
-        },
-        "startDate": {
-          "$ref": "#/definitions/iso8601"
-        },
-        "endDate": {
-          "$ref": "#/definitions/iso8601"
-        },
-        "url": {
-          "type": "string",
-          "format": "uri",
-          "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
-        },
-        "roles": {
-          "type": "array",
-          "description": "Specify your role on this project or in company",
-          "additionalItems": false,
-          "items": {
+            "description": "Short summary of project. e.g. Collated works of 2017."
+          },
+          "highlights": {
+            "type": "array",
+            "description": "Specify multiple features",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. Directs you close but not quite there"
+            }
+          },
+          "keywords": {
+            "type": "array",
+            "description": "Specify special elements involved",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. AngularJS"
+            }
+          },
+          "startDate": {
+            "$ref": "#/definitions/iso8601"
+          },
+          "endDate": {
+            "$ref": "#/definitions/iso8601"
+          },
+          "url": {
             "type": "string",
-            "description": "e.g. Team Lead, Speaker, Writer"
+            "format": "uri",
+            "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
+          },
+          "roles": {
+            "type": "array",
+            "description": "Specify your role on this project or in company",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. Team Lead, Speaker, Writer"
+            }
+          },
+          "entity": {
+            "type": "string",
+            "description": "Specify the relevant company/entity affiliations e.g. 'greenpeace', 'corporationXYZ'"
+          },
+          "type": {
+            "type": "string",
+            "description": " e.g. 'volunteering', 'presentation', 'talk', 'application', 'conference'"
           }
-        },
-        "entity": {
-          "type": "string",
-          "description": "Specify the relevant company/entity affiliations e.g. 'greenpeace', 'corporationXYZ'"
-        },
-        "type": {
-          "type": "string",
-          "description": " e.g. 'volunteering', 'presentation', 'talk', 'application', 'conference'"
         }
       }
     }
-  }],
+  ],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
