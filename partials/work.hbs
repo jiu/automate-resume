@@ -3,10 +3,15 @@
 	<h2>Work</h2>
 	{{#each resume.work}}
 	<div class="item">
-		{{#if company}}
-		<h3 class="name">
-			{{company}}
+		{{#if position}}
+		<h3 class="position">
+			{{position}}
 		</h3>
+		{{/if}}
+		{{#if name}}
+		<div class="name">
+			{{name}} 
+		</div>
 		{{/if}}
 		<div class="date">
 			{{#if startDate}}
@@ -24,11 +29,7 @@
 			</span>
 			{{/if}}
 		</div>
-		{{#if position}}
-		<div class="position">
-			{{position}}
-		</div>
-		{{/if}}
+		
 		{{#if website}}
 		<div class="website">
 			<a href="{{website}}">{{website}}</a>

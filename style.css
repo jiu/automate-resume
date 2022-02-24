@@ -1,6 +1,6 @@
 body {
-	background: #fff;
-	font: 15px Arial, Helvetica, sans-serif;
+	background: #fff url(../assets/images/dot-grid.png);
+	font: 15px "Roboto Mono", monospace;
 	line-height: 1.4;
 	margin: 50px 0;
 	margin-bottom: 100px;
@@ -51,4 +51,15 @@ blockquote {
 	float: left;
 	width: 50%;
 }
-
+h2{
+	color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+h3{
+	color: #eb219b;
+	font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}

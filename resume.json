@@ -9,6 +9,7 @@
     "label": "Digital analyst / front-end developer / graphic designer",
     "image": "",
     "email": "julie@iamjiu.eu",
+    "website": "http://www.iamjiu.eu",
     "phone": "+32 (0) 497 60 52 53",
     "url": "https://www.iamjiu.eu/",
     "summary": "In the graphic and multimedia industry mainly in the web world, I evolve as a graphic designer / web designer / front-end developer like a chameleon. Passionate about new technologies, I am constantly looking for ways to improve and gain in efficiency in projects, whether through a new tool or a new way of working.",
@@ -34,15 +35,17 @@
   "work": [
     {
       "pinned": true,
+      "company": "Positive Thinking Company",
       "name": "Positive Thinking Company",
       "position": "Digital analyst (Mobile squad) @ BNP Paribas Fortis",
       "startDate": "2021-11-30",
+      "team": "10",
+      "skills": "Adobe Analytics, Contentsquare",
+      "area": "Banking",
+      "achievements": "Work in a different role, changing my mind from dev to marketing",
+      "what": "BNP Paribas Fortis is the Belgian bank of the BNP Paribas group, mainly active in the retail and corporate market in Belgium",
       "highlights": [
-        "Achievements: Work in a different role, changing my mind from dev to marketing",
-        "Skills used: Adobe Analytics, Contentsquare",
-        "Activity area: Banking",
-        "Team: 10",
-        "BNP Paribas Fortis is the Belgian bank of the BNP Paribas group, mainly active in the retail and corporate market in Belgium"
+        ""
       ],
       "summary": "Analysing data and formulating strategic advice\n\nCreate tagging plan and report for new or updated features\n\nPerforming different analyses as part of continual improvement on the basis of quantitative, qualitative and usability analytics, as well as processing and visualising data",
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
@@ -470,7 +473,7 @@
   ],
   "languages": [
     {
-      "fluency": "Professional Working",
+      "fluency": "Professional Working - C1",
       "language": "English"
     },
     {
@@ -483,7 +486,7 @@
     },
     {
       "fluency": "Elementary",
-      "language": "Dutch"
+      "language": "Dutch - A2"
     }
   ],
   "interests": [],
