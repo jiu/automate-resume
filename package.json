@@ -9,8 +9,9 @@
   },
   "dependencies": {
     "fluentcv": "^1.9.0-beta",
-    "resume-cli": "^3.0.6",
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "resume-cli": "^3.0.6"
   },
   "name": "automate-resume",
   "version": "1.0.0",
