@@ -18,7 +18,7 @@ jobs:
         id: commit
         run: 
             git add public/index.html
-            git commit -m "update resume page"
+            git commit "update resume page"
             echo ::set-output name=exit_code::0
       - name: Push changes
         uses: ad-m/github-push-action@master
