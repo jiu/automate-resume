@@ -15,11 +15,11 @@ jobs:
           # modifies the index.html in-place
           output_filepath: public/index.html
       - name: Commit published HTML
-        id: commit
-        run: 
-            git add public/index.html
-            git commit "update resume page"
-            echo ::set-output name=exit_code::0
+        run: |
+          git config --global user.name 'Your Name'
+          git config --global user.email 'your-username@users.noreply.github.com'
+          git commit -am "Automated report"
+          git push
       - name: Push changes
         uses: ad-m/github-push-action@master
         if: steps.commit.outputs.exit_code == 0
