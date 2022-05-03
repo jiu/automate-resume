@@ -51,7 +51,7 @@
       ],
       "summary": "",
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
-      "location": "Brussels Metropolitan Area"
+      "location": "Brussels"
     },
     {
       "name": "Positive Thinking Company",
@@ -65,14 +65,14 @@
       "what": "MediaMarkt, is a German store chain specializing in consumer electronics and household appliances, number 1 in Europe",
       "highlights": [
         "A/B test and data driven decision to optimise the conversion rate & customer journey",
-"Analyse the global user experience across different entry point on the website (homepage, landing page, category page)",
-"Work together with business and IT teams (make the bridge between the two, with focus on Business)",
-"Help the frontend team. Advise on development, coach and support where needed.",
-"Manage the website with a custom CMS and a catalog manager for the listing of product"
-      
+        "Analyse the global user experience across different entry point on the website (homepage, landing page, category page)",
+        "Work together with business and IT teams (make the bridge between the two, with focus on Business)",
+        "Help the frontend team. Advise on development, coach and support where needed.",
+        "Manage the website with a custom CMS and a catalog manager for the listing of product"
       ],
       "summary": "",
-      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
+      "location": "Zellik"
     },
     {
       "name": "Positive Thinking Company",
@@ -81,7 +81,7 @@
       "endDate": "2020-12-31",
       "highlights": [],
       "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
-      "location": "Brussels Metropolitan Area"
+      "location": "Brussels"
     },
     {
       "name": "Positive Thinking Company",
@@ -89,74 +89,95 @@
       "startDate": "2020-02-28",
       "endDate": "2020-10-31",
       "achievements": "Learn a new workflow with development servers only accessible by SSH and a huge use of git",
-        "skills": "HTML - SASS - Bootstrap - Javascript - PHP - Twig - Git - Scrum - Jira",
-        "what":"Pickx is the Proximus media platform available on the Internet",
-        "area" : "Telecommunication",
-        "team": "20",
+      "skills": "HTML - SASS - Bootstrap - Javascript - PHP - Twig - Git - Scrum - Jira",
+      "what": "Pickx is the Proximus media platform available on the Internet",
+      "area": "Telecommunication",
+      "team": "20",
       "highlights": [
-        
+        "Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content of the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each page is created dynamically based on different feeds of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score ... use the same template. I was in charge to create and update the different template and element of the web application in a way to be reusable in every context."
       ],
-      "summary": "Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content of the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each page is created dynamically based on different feeds of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score ... use the same template. I was in charge to create and update the different template and element of the web application in a way to be reusable in every context.",
-      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
+      "location": "Brussels"
     },
     {
       "name": "Positive Thinking Company",
       "position": "Front-end developer @ Proximus",
       "startDate": "2018-01-31",
       "endDate": "2020-02-28",
+      "achievements": "Working for 2 teams and managing to keep the deadlines",
+      "skills": "HTML - SASS - Foundation 5 - Javascript - Razor - Magnolia CMS - Git - Scrum - Jira",
+      "what": "Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.",
+      "area": "Telecommunication",
+      "team": "40",
       "highlights": [
-        "Achievements: Working for 2 teams and managing to keep the deadlines",
-        "Skills used: HTML - SASS - Foundation 5 - Javascript - Razor - Magnolia CMS - Git - Scrum - Jira",
-        "Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.",
-        "Activity area: Telecommunication",
-        "Team: 40"
+        "Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom-made library of HTML/css elements. The role was to update the library with the new design so it’s applied everywhere in one shot and also creating new elements. I also update structural components like for example the header, the goal was to make the JavaScript work with each different version (10 versions). A new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI compliant.",
+        "Proximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand."
       ],
-      "summary": "Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom-made library of HTML/css elements. The role was to update the library with the new design so it’s applied everywhere in one shot and also creating new elements. I also update structural components like for example the header, the goal was to make the JavaScript work with each different version (10 versions). A new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI compliant.\n\nProximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand.",
-      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
+      "location": "Brussels"
     },
     {
       "name": "Positive Thinking Company",
       "position": "Front-end developer / project manager @ Engie",
       "startDate": "2016-12-31",
       "endDate": "2018-01-31",
+      "achievements": "Improvement of my front-end skills, basic learning of IoT manipulation",
+      "skills": "HTML - SASS - Javascript - image edition - PHP - Wordpress - FTL (freemarker) - Teamsite - Smartfocus - API - Android development - GIT - NodeJS - Scrum - Google Analytics - Jira",
+      "what": "Engie is a French energy industrial group.",
+      "area": "Energy",
+      "team": "20",
       "highlights": [
-        "Achievements: Improvement of my front-end skills, basic learning of IoT manipulation",
-        "Skills used: HTML - SASS - Javascript - image edition - PHP - Wordpress - FTL (freemarker) - Teamsite - Smartfocus - API - Android development - GIT - NodeJS - Scrum - Google Analytics - Jira",
-        "Engie is a French energy industrial group.",
-        "Activity area: Energy",
-        "Team: 20"
+        "Participation in the creation of the new website and rebranding of Engie",
+        "Maintenance and updating of the various Engie websites",
+        "Maintenance and creation of templates for e-mailing",
+        "Creation of reusable macros in the Teamsite CMS to help the work of content editors",
+        "Technical analysis and testing of solutions developed for new web applications",
+        "Creation of an innovative concept using the Engie box as well as various smart objects (watch, Sonos, Philips Hue) in order to create personalized atmospheres"
       ],
-      "summary": "Participation in the creation of the new website and rebranding of Engie\nMaintenance and updating of the various Engie websites\n\nMaintenance and creation of templates for e-mailing\n\nCreation of reusable macros in the Teamsite CMS to help the work of content editors\n\nTechnical analysis and testing of solutions developed for new web applications\n\nCreation of an innovative concept using the Engie box as well as various smart objects (watch, Sonos, Philips Hue) in order to create personalized atmospheres",
-      "url": "https://www.linkedin.com/company/the-positive-thinking-company/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/the-positive-thinking-company/",
+      "location": "Brussels"
     },
     {
       "name": "Harvey Nash",
       "position": "Webdesigner - integrator @ Proximus",
       "startDate": "2013-08-31",
       "endDate": "2016-11-30",
+      "achievements": "Improved my long-term vision for the application of HTML/CSS components to create reusable objects",
+      "skills": "HTML - SASS - Foundation 5 - Javascript - AngularJS - Razor - video edition - PHP - Wordpress - Teamsite - Magnolia CMS - SVN - NodeJS",
+      "what": "Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.",
+      "area": "Telecommunication",
+      "team": "30",
       "highlights": [
-        "Achievements: Improved my long-term vision for the application of HTML/CSS components to create reusable objects",
-        "Skills used: HTML - SASS - Foundation 5 - Javascript - AngularJS - Razor - video edition - PHP - Wordpress - Teamsite - Magnolia CMS - SVN - NodeJS",
-        "Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.",
-        "Activity area: Telecommunication",
-        "Team: 30"
+        "Creating pages as an integrator",
+        "Creation and maintenance of JavaScript applications",
+        "Maintenance ‘day-to-day’ of the website by updating pages and applications in Magnolia and Teamsite",
+        "When moving from Belgacom to Proximus, teamwork on the creation of a personalized css library (Zurb foundation type)"
       ],
-      "summary": "Creating pages as an integrator\n\nCreation and maintenance of JavaScript applications\n\nMaintenance ‘day-to-day’ of the website by updating pages and applications in Magnolia and Teamsite\n\nWhen moving from Belgacom to Proximus, teamwork on the creation of a personalized css library (Zurb foundation type)",
-      "url": "https://www.linkedin.com/company/harvey-nash/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/harvey-nash/",
+      "location": "Brussels"
     },
     {
       "name": "WebDigitales",
       "position": "Webmaster /  sales technician",
       "startDate": "2012-06-30",
       "endDate": "2012-12-31",
+      "achievements": "Learning different CMS and discovering Ruby, improving my customer portfolio management",
+      "skills": "Drupal – Prestashop – Ruby – Rails - PHP – HTML – css -JavaScript - Google Analytics - Google Adwords",
+      "what": "Webdigitales is a website development & online sales company",
+      "area": "Information technologies and services",
+      "team": "5",
       "highlights": [
-        "Achievements: Learning different CMS and discovering Ruby, improving my customer portfolio management",
-        "skills used: Drupal – Prestashop – Ruby – Rails - PHP – HTML – css -JavaScript - Google Analytics - Google Adwords",
-        "Webdigitales is a website development & online sales company",
-        "Activity area: Information technologies and services",
-        "Team: 5"
+        "Creation and maintenance of websites for multiple clients via various cms. (Drupal, prestashop)",
+        "Project management and customer portfolio",
+        "SEO optimisation and creation of report with the help of Google Analytics",
+        "SEA with Google Adwords",
+        "Customization of the Redmine solution, project management software. (Ruby on Rails)"
       ],
-      "summary": "Creation and maintenance of websites for multiple clients via various cms. (Drupal, prestashop)\n\nProject management and customer portfolio\n\nSEO optimisation and creation of report with the help of Google Analytics\n\nSEA with Google Adwords\n\nCustomization of the Redmine solution, project management software. (Ruby on Rails)",
+      "summary": "",
       "url": "https://www.linkedin.com/company/webdigitales/",
       "location": "Ciney"
     },
@@ -165,91 +186,117 @@
       "position": "SEO specialist",
       "startDate": "2011-03-31",
       "endDate": "2012-06-30",
+      "achievements": "Learning natural referencing and analysis tools, obtaining the SEO expert certificate",
+      "skills": "Google Analytics, woorank, SEMrush, SEO, customer management",
+      "what": "ProduWeb is a specialist in SEO websites on Google",
+      "area": "Internet",
+      "team": "3",
       "highlights": [
-        "Achievements: Learning natural referencing and analysis tools, obtaining the SEO expert certificate",
-        "Skills used: Google Analytics, woorank, SEMrush, SEO, customer management",
-        "ProduWeb is a specialist in SEO websites on Google",
-        "Activity area: Internet",
-        "Team: 3"
+        "Realization of SEO optimization in order to propel websites to the top of search engine rankings",
+        "Implementation of various e-marketing strategies",
+        "Search for the right keywords to put the site in front of its competitors (based on SEMrush, woorank)"
       ],
-      "summary": "Realization of SEO optimization in order to propel websites to the top of search engine rankings\n\nImplementation of various e-marketing strategies\n\nSearch for the right keywords to put the site in front of its competitors (based on SEMrush, woorank)",
-      "url": "https://www.linkedin.com/company/produweb-agence-de-communication/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/produweb-agence-de-communication/",
+      "location": "Liège"
     },
     {
       "name": "ProduWeb",
       "position": "Webdesigner",
       "startDate": "2010-05-31",
       "endDate": "2011-03-31",
+      "achievements": "Improvement of customer management and work methodology",
+      "skills": "design - Wordpress - Flash – PHP – HTML - css - JavaScript, customer management - Google Analytics - Google Adwords",
+      "what": "Produweb is a web agency specialising in web marketing & technologies",
+      "area": "Internet",
+      "team": "10",
       "highlights": [
-        "Achievements: Improvement of customer management and work methodology",
-        "Skills used: design - Wordpress - Flash – PHP – HTML - css - JavaScript, customer management - Google Analytics - Google Adwords",
-        "Produweb is a web agency specialising in web marketing & technologies",
-        "Activity area: Internet",
-        "Team: 10"
+        "Site creation with Wordpress",
+        "Creation of themes for Wordpress",
+        "Creation of layout of internet pages",
+        "Flash animation creation",
+        "Implementation of Google Analytics and Google Adwords"
       ],
-      "summary": "Site creation with Wordpress\n\nCreation of themes for Wordpress\n\nCreation of layout of internet pages\n\nFlash animation creation\n\nImplementation of Google Analytics and Google Adwords",
-      "url": "https://www.linkedin.com/company/produweb-agence-de-communication/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/produweb-agence-de-communication/",
+      "location": "Liège"
     },
     {
       "name": "STX-Med",
       "position": "Web and Print Designer",
       "startDate": "2009-12-31",
       "endDate": "2010-05-31",
+      "Achievements": "Management of a double job as a print/web graphic designer and developer",
+      "Skills used": "Design - Print - Magento - Joomla - Flash - Video editing - Suite Adobe - Google Analytics - Google Adwords",
+      "what": "Cefaly is the company creator of a neurostimulation device to treat migraines",
+      "area": "Medical equipments",
+      "team": "8",
       "highlights": [
-        "Achievements: Management of a double job as a print/web graphic designer and developer",
-        "Skills used: Design - Print - Magento - Joomla - Flash - Video editing - Suite Adobe - Google Analytics - Google Adwords",
-        "Cefaly is the company creator of a neurostimulation device to treat migraines",
-        "Activity area: Medical equipments",
-        "Team: 8"
+        "Maintenance of existing websites (joomla)",
+        "Creation of the company's e-commerce site (magento)",
+        "Creation of user manuals for the products sold",
+        "Creation of paper communications (advertisements ...)",
+        "Video editing and retouching",
+        "Creation of flash module for videos streaming",
+        "SEO optimisation and report with the help of Google Analytics",
+        "SEA with Google Adwords"
       ],
-      "summary": "Maintenance of existing websites (joomla)\n\nCreation of the company's e-commerce site (magento)\n\nCreation of user manuals for the products sold\n\nCreation of paper communications (advertisements ...)\n\nVideo editing and retouching\n\nCreation of flash module for videos streaming\n\nSEO optimisation and report with the help of Google Analytics\n\nSEA with Google Adwords",
+      "summary": "",
       "url": "https://www.linkedin.com/company/cefaly/",
-      "location": "Liège, Région wallonne, Belgique"
+      "location": "Liège"
     },
     {
       "name": "Tagora",
       "position": "Flash developer",
       "startDate": "2009-10-31",
       "endDate": "2009-12-31",
+      "achievements": "Discovery of the freelance profession, respect of deadlines",
+      "skills": "Flash - actionscript - Suite Adobe",
+      "what": "Tagora is a multi-channel digital agency allowing communication on all media for its clients",
+      "area": "Marketing and Advertising",
       "highlights": [
-        "Achievements: Discovery of the freelance profession, respect of deadlines",
-        "Skills used: Flash - actionscript - Suite Adobe",
-        "Tagora is a multi-channel digital agency allowing communication on all media for its clients",
-        "Activity area: Marketing and Advertising"
+        "Module/component creation with Flash"
       ],
-      "summary": "Module/component creation with Flash",
+      "summary": "",
       "url": "https://www.linkedin.com/company/tagora/",
-      "location": "Bruxelles et périphérie"
+      "location": "Brussels"
     },
     {
       "name": "Bureau347",
       "position": "Web developer",
       "startDate": "2008-12-31",
       "endDate": "2009-05-31",
+      "achievements": "Learning how to make a ‘pixel perfect’ web page compared to the original design",
+      "skills": "Wordpress – HTML - css - javascript - Flash - design - paper vision 3D - augmented reality - Suite Adobe",
+      "what": "Bureau347 is a digital agency specialising in website creation and advertising",
+      "area": "Internet",
+      "Team": "6",
       "highlights": [
-        "Achievements: Learning how to make a ‘pixel perfect’ web page compared to the original design",
-        "Skills used: Wordpress – HTML - css - javascript - Flash - design - paper vision 3D - augmented reality - Suite Adobe",
-        "Bureau347 is a digital agency specialising in website creation and advertising",
-        "Activity area: Internet",
-        "Team: 6"
+        "Creation of sites made with flash",
+        "Creation of themes / sites with the Wordpress CMS",
+        "Maintenance in various html / css / js / php and Flash sites",
+        "Development of augmented reality with papervision 3D"
       ],
-      "summary": "Creation of sites made with flash\n\nCreation of themes / sites with the Wordpress CMS\n\nMaintenance in various html / css / js / php and Flash sites\n\nDevelopment of augmented reality with papervision 3D",
-      "url": "https://www.linkedin.com/company/bureau347/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/bureau347/",
+      "location": "Brussels"
     },
     {
       "name": "Polygone Group",
       "position": "Web and Print Designer",
       "startDate": "2007-08-31",
       "endDate": "2007-09-30",
+      "achievements": "Learning PHP, putting the Adobe suite into practice",
+      "skills": "Print - HTML - css - PHP - design - Suite Adobe",
+      "what": "Polygone is a multi-support communication agency",
+      "area": "Marketing and Advertising",
+      "Team": "10",
       "highlights": [
-        "Achievements: Learning PHP, putting the Adobe suite into practice",
-        "Skills used: Print - HTML - css - PHP - design - Suite Adobe",
-        "Polygone is a multi-support communication agency",
-        "Activity area: Marketing and Advertising",
-        "Team: 10"
+        "Creation of various printed documents, Flash animations and web interface design"
       ],
-      "summary": "Creation of various printed documents, Flash animations and web interface design",
-      "url": "https://www.linkedin.com/company/polygone-group/"
+      "summary": "",
+      "url": "https://www.linkedin.com/company/polygone-group/",
+      "location": "Brussels"
     }
   ],
   "volunteer": [],
@@ -305,9 +352,7 @@
       "startDate": "2007-12-31",
       "endDate": "2007-12-31",
       "score": "",
-      "courses": [
-        ""
-      ]
+      "courses": []
     },
     {
       "institution": "Haute Ecole Albert Jacquard",
@@ -321,6 +366,12 @@
   ],
   "awards": [],
   "certificates": [
+    {
+      "name": "Themed Environment Design",
+      "issuer": "CGMA | Computer Graphics Master Academy",
+      "startDate": "2022-03-31",
+      "url": ""
+    },
     {
       "name": "Become A Conversion Rate Optimization (CRO) Expert",
       "issuer": "Udemy",
@@ -494,8 +545,8 @@
       "language": "French"
     },
     {
-      "fluency": "Elementary",
-      "language": "Dutch - A2"
+      "fluency": "Elementary - A2",
+      "language": "Dutch"
     }
   ],
   "interests": [],

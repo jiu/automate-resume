@@ -1,1060 +1,1198 @@
 <!doctype html>
 <html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Julie Dubois</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-  <title>Julie Dubois</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <style>/* Utils */
-/*----- Colors -----*/
-/*----- Fonts -----*/
-/*----- Dimensions and sizes -----*/
-/* Base */
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
+	<style>
+	body {
+	background: #fff url(../assets/images/dot-grid.png);
+	font: 15px "Roboto Mono", monospace;
+	line-height: 1.4;
+	margin: 50px 0;
+	margin-bottom: 100px;
+	color: #4a4a4a;
+}
+p {
+	line-height: 1.4;
+	margin: 0;
+
+}
+a{
+	text-decoration: underline;
+	color: #999;
+}
+small{
+	color: #999;
 }
 
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
-}
-
-html {
-  background: white;
-}
-
-body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  background: white;
-  margin: 50px 0 100px;
-  letter-spacing: .3px;
-  color: #39424B;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: none;
-  margin: 0;
-}
-
-h1 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 1px;
-}
-
-h2 {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: .5px;
-}
-
-h3 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: .4px;
-}
-
-h3.bold {
-  font-weight: 700;
-}
-
-h4 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-}
-
-h4.bold {
-  font-weight: 700;
-}
-
-h5 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 11px;
-}
-
-h5.italic {
-  font-style: italic;
-}
-
-h6 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #2895F1;
-}
-
-a .fa-external-link {
-  font-size: 10px;
-  vertical-align: text-top;
-}
-
-p,
-li {
-  font-size: 11px;
-}
-
-blockquote {
-  font-size: 11px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  margin: 10px 25px;
-}
-
-em {
-  color: #999;
-}
-
-ul {
-  margin: 10px 0 0;
-  -webkit-padding-start: 25px;
-}
-
-ul li {
-  padding-left: 10px;
-}
-
-ul.minimal {
-  list-style: none;
-  padding: 0;
-}
-
-ul.minimal li {
-  margin-bottom: 3px;
-  padding-left: 0;
-}
-
-ul.two-column {
-  -webkit-column-count: 2;
-  -webkit-column-gap: 28px;
-  column-count: 2;
-  column-gap: 28px;
-}
-
-ul.two-column li {
-  padding-left: 0;
-}
-
-@page {
-  size: A4;
-}
-
-.container {
-  padding-top: 20px;
-}
-
-.keyline {
-  width: 45px;
-  margin: 8px 0 10px;
-  border-top: 1px solid #56817A;
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.profile-pic {
-  margin-top: -5px;
-  margin-right: 18px;
-}
-
-.profile-pic img {
-  height: 52px;
-  width: 52px;
-  border-radius: 50%;
-  border: 2px solid #56817A;
-}
-
-.summary {
-  margin: 5px 0 5px;
-}
-
-.sublink {
-  font-size: 70%;
-  font-weight: 200;
-  color: dimgray;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-/* Layouts */
-.page {
-  background: white;
-  width: 612px;
-  min-height: 792px;
-  display: block;
-  margin: 0 auto;
-  border-top: 10px solid #56817A;
-  padding: 36px 22px 30px 34px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-}
-
-.page:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.left-column {
-  float: left;
-  width: 160px;
-  margin-right: 20px;
-  word-wrap: break-word;
-}
-
-.right-column {
-  width: auto;
-  overflow: hidden;
+section {
+	margin-bottom: 2em;
 }
 
 .item {
-  margin-bottom: 15px;
+	margin-bottom: 1em;
+}
+#resume {
+	margin: 0 auto;
+	max-width: 650px;
+	padding: 0 20px;
 }
 
-.item:last-child {
-  margin-bottom: 0;
+#profiles,
+#skills {
+	overflow: hidden;
+}
+#profiles .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+h2{
+	color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+h3{
+	color: #eb219b;
+	font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+	margin-bottom: 10px;
 }
 
-@media print {
-  body {
-    margin: 0;
-  }
-
-  .page {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 36px 0 30px;
-    box-shadow: none;
-  }
-
-  .page .resume-header,
-  .page .resume-content {
-    padding: 0 22px 0 34px;
-  }
-
-  .container {
-    page-break-inside: avoid;
-  }
-
-  .work-container .item {
-    page-break-inside: avoid;
-  }
-
-  .fa-external-link {
-    display: none;
-  }
-}
-
-/* Components */
-.info-tag-container {
-  margin-bottom: 5px;
-}
-
-.info-tag-container .fa {
-  font-size: 14px;
-  width: 12px;
-  margin-right: 5px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.info-tag-container .fa.fa-map-marker {
-  font-size: 16px;
-}
-
-.info-tag-container .fa.fa-mobile {
-  font-size: 18px;
-}
-
-.info-tag-container .fa.fa-envelope-o {
-  font-size: 12px;
-}
-
-.info-tag-container .fa.fa-desktop {
-  font-size: 11px;
-}
-
-.info-tag-container .fa.fa-external-link {
-  width: auto;
-  font-size: inherit;
-  vertical-align: text-top;
-}
-
-.info-tag-container .info-text {
-  font-size: 12px;
-  text-transform: none;
-  display: inline-block;
-  vertical-align: middle;
-  width: 139px;
-}
-
-.references-container .fa {
-  font-size: 14px;
-}
-
-.education-container .location {
-  padding-bottom: 6px;
-  font-weight: 400;
-}
-
-.education-container .specialization {
-  text-transform: none;
-  font-style: italic;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.main-skill {
-  font-size: 80%;
-}
-
-.skill {
-  margin: .15em;
-  padding: .15em;
-  background: ghostwhite;
-  border-radius: 5px;
-}
-</style>
-</head>
-
-<body>
-  <main id="resume" class="page">
-    <header class="resume-header clearfix">
-        <div class="profile-header pull-left">
-            <h1>Julie Dubois</h1>
-            <h2>Digital analyst / front-end developer / graphic designer</h2>
-        </div>
-        <div class="profile-pic pull-right">
-        </div>
-    </header>
-    <div class="resume-content">
-      <aside class="left-column">
-        <div class="container about-container">
-            <div class="title">
-                <h3>About</h3>
-                <div class="keyline"></div>
-            </div>
-                <div class="info-tag-container">
-                    <i class="fa fa-map-marker"></i>
-                
-                        <h6 class="info-text"> Ath   BE</h6>
-                </div>
-        
-        
-                <div class="info-tag-container">
-                    <i class="fa fa-envelope-o"></i>
-                
-                        <h6 class="info-text">
-                            <a href="mailto:julie@iamjiu.eu" target="_blank">
-                                julie@iamjiu.eu
-                            </a>
-                        </h6>
-                </div>
-        
-                <div class="info-tag-container">
-                    <i class="fa fa-mobile"></i>
-                
-                        <h6 class="info-text">
-                            <a href="https://www.iamjiu.eu/" target="_blank">
-                                +32 (0) 497 60 52 53
-                            </a>
-                        </h6>
-                </div>
-        
-                <div class="info-tag-container">
-                    <i class="fa fa-globe"></i>
-                
-                        <h6 class="info-text">
-                            <a href="http://www.iamjiu.eu" target="_blank">
-                                www.iamjiu.eu
-                            </a>
-                        </h6>
-                </div>
-        
-        </section>
-            <div class="skills-container">
-                    <section class="container">
-                            <div class="title">
-                                <h3>Front-end</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">HTML</h6>
-                                    <h6 class="main-skill skill">CSS/SASS/SCSS</h6>
-                                    <h6 class="main-skill skill">Javascript</h6>
-                                    <h6 class="main-skill skill">ReactJS</h6>
-                                    <h6 class="main-skill skill">Zurb Foundation</h6>
-                                    <h6 class="main-skill skill">Bootstrap</h6>
-                                    <h6 class="main-skill skill">Bulma</h6>
-                                    <h6 class="main-skill skill">GatsbyJS</h6>
-                                    <h6 class="main-skill skill">jQuery</h6>
-                                    <h6 class="main-skill skill">GraphQL</h6>
-                                    <h6 class="main-skill skill">Styled component</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>BACK-END</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">PHP</h6>
-                                    <h6 class="main-skill skill">MySQL</h6>
-                                    <h6 class="main-skill skill">Python</h6>
-                                    <h6 class="main-skill skill">Wordpress</h6>
-                                    <h6 class="main-skill skill">Drupal</h6>
-                                    <h6 class="main-skill skill">Magento</h6>
-                                    <h6 class="main-skill skill">Prestashop</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>WORKFLOW</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">Responsive Development</h6>
-                                    <h6 class="main-skill skill">Package Management &amp; automation</h6>
-                                    <h6 class="main-skill skill">webpack</h6>
-                                    <h6 class="main-skill skill">node/npm</h6>
-                                    <h6 class="main-skill skill">grunt</h6>
-                                    <h6 class="main-skill skill">gulp</h6>
-                                    <h6 class="main-skill skill">Versioning: Git, SVN</h6>
-                                    <h6 class="main-skill skill">Testing (Jest / Enzyme)</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Marketing</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">Certied SEO expert (June 2011)</h6>
-                                    <h6 class="main-skill skill">Google Tag Manager</h6>
-                                    <h6 class="main-skill skill">Google analytics</h6>
-                                    <h6 class="main-skill skill">Adobe analytics</h6>
-                                    <h6 class="main-skill skill"></h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Design</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">Suite Adobe</h6>
-                                    <h6 class="main-skill skill">Sketch</h6>
-                                    <h6 class="main-skill skill">Photography</h6>
-                                    <h6 class="main-skill skill">Video</h6>
-                                    <h6 class="main-skill skill">Illustration</h6>
-                                    <h6 class="main-skill skill">Projection Mapping</h6>
-                                    <h6 class="main-skill skill">Veejaying</h6>
-                                    <h6 class="main-skill skill">3d modeling</h6>
-                            </div>
-                    </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Data science / AI</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">R</h6>
-                                    <h6 class="main-skill skill">Python</h6>
-                                    <h6 class="main-skill skill">data analysis</h6>
-                                    <h6 class="main-skill skill">ggplot</h6>
-                            </div>
-                    </section>
-            </div>
-            <div class="container languages-container">
-                <div class="title">
-                    <h3>Languages</h3>
-                    <div class="keyline"></div>
-                </div>
-                <ul class="minimal">
-                        <li>
-                            <h6>English <em>(Professional Working - C1)</em></h6>
-                        </li>
-                        <li>
-                            <h6>Spanish <em>(Elementary)</em></h6>
-                        </li>
-                        <li>
-                            <h6>French <em>(Native Speaker)</em></h6>
-                        </li>
-                        <li>
-                            <h6>Dutch - A2 <em>(Elementary)</em></h6>
-                        </li>
-                </ul>
-            </div>
-      </aside>
-      <div class="right-column">
-                <div class="container summary-container">
-                    <div class="title">
-                        <h3>Summary</h3>
-                        <div class="keyline"></div>
-                    </div>            <p class="summary">
-                        In the graphic and multimedia industry mainly in the web world, I evolve as a graphic designer / web designer / front-end developer like a chameleon. Passionate about new technologies, I am constantly looking for ways to improve and gain in efficiency in projects, whether through a new tool or a new way of working.
-                    </p>
-                </div>
-        <div class="container work-container">
-            <div class="title">
-                <h3>Experience</h3>
-                <div class="keyline"></div>
-            </div>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h3 class="bold pull-left">
-                                Positive Thinking Company
-                        </h3>
-                        <h5 class="italic pull-right">
-                                <span class="startDate">11/2021</span>
-                                <span class="endDate"> - Present</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Digital analyst (Mobile squad) @ BNP Paribas Fortis</h4>
-        
-        
-        
-                    <ul>
-                        <li>Analysing data and formulating strategic advice</li>
-                        <li>Create tagging plan and report for new or updated features</li>
-                        <li>Performing different analyses as part of continual improvement on the basis of quantitative, qualitative and usability analytics, as well as processing and visualising data</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">12/2020</span>
-                                <span class="endDate"> - 11/2021</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Webmaster / Conversion rate optimization &amp; Customer Journey expert @ MediaMarkt</h4>
-        
-        
-        
-                    <ul>
-                        <li>A/B test and data driven decision to optimise the conversion rate &amp; customer journey</li>
-                        <li>Analyse the global user experience across different entry point on the website (homepage, landing page, category page)</li>
-                        <li>Work together with business and IT teams (make the bridge between the two, with focus on Business)</li>
-                        <li>Help the frontend team. Advise on development, coach and support where needed.</li>
-                        <li>Manage the website with a custom CMS and a catalog manager for the listing of product</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">10/2020</span>
-                                <span class="endDate"> - 12/2020</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Frontend Web Developer</h4>
-        
-        
-        
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">02/2020</span>
-                                <span class="endDate"> - 10/2020</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Front-end developer @ Proximus PICKX</h4>
-        
-        
-                    <p class="summary">Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content of the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each page is created dynamically based on different feeds of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score ... use the same template. I was in charge to create and update the different template and element of the web application in a way to be reusable in every context.</p>
-        
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">01/2018</span>
-                                <span class="endDate"> - 02/2020</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Front-end developer @ Proximus</h4>
-        
-        
-                    <p class="summary">Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom-made library of HTML/css elements. The role was to update the library with the new design so it’s applied everywhere in one shot and also creating new elements. I also update structural components like for example the header, the goal was to make the JavaScript work with each different version (10 versions). A new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI compliant.
-        
-        Proximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand.</p>
-        
-                    <ul>
-                        <li>Achievements: Working for 2 teams and managing to keep the deadlines</li>
-                        <li>Skills used: HTML - SASS - Foundation 5 - Javascript - Razor - Magnolia CMS - Git - Scrum - Jira</li>
-                        <li>Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.</li>
-                        <li>Activity area: Telecommunication</li>
-                        <li>Team: 40</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">12/2016</span>
-                                <span class="endDate"> - 01/2018</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Front-end developer / project manager @ Engie</h4>
-        
-        
-                    <p class="summary">Participation in the creation of the new website and rebranding of Engie
-        Maintenance and updating of the various Engie websites
-        
-        Maintenance and creation of templates for e-mailing
-        
-        Creation of reusable macros in the Teamsite CMS to help the work of content editors
-        
-        Technical analysis and testing of solutions developed for new web applications
-        
-        Creation of an innovative concept using the Engie box as well as various smart objects (watch, Sonos, Philips Hue) in order to create personalized atmospheres</p>
-        
-                    <ul>
-                        <li>Achievements: Improvement of my front-end skills, basic learning of IoT manipulation</li>
-                        <li>Skills used: HTML - SASS - Javascript - image edition - PHP - Wordpress - FTL (freemarker) - Teamsite - Smartfocus - API - Android development - GIT - NodeJS - Scrum - Google Analytics - Jira</li>
-                        <li>Engie is a French energy industrial group.</li>
-                        <li>Activity area: Energy</li>
-                        <li>Team: 20</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">08/2013</span>
-                                <span class="endDate"> - 11/2016</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Webdesigner - integrator @ Proximus</h4>
-        
-        
-                    <p class="summary">Creating pages as an integrator
-        
-        Creation and maintenance of JavaScript applications
-        
-        Maintenance ‘day-to-day’ of the website by updating pages and applications in Magnolia and Teamsite
-        
-        When moving from Belgacom to Proximus, teamwork on the creation of a personalized css library (Zurb foundation type)</p>
-        
-                    <ul>
-                        <li>Achievements: Improved my long-term vision for the application of HTML/CSS components to create reusable objects</li>
-                        <li>Skills used: HTML - SASS - Foundation 5 - Javascript - AngularJS - Razor - video edition - PHP - Wordpress - Teamsite - Magnolia CMS - SVN - NodeJS</li>
-                        <li>Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.</li>
-                        <li>Activity area: Telecommunication</li>
-                        <li>Team: 30</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">06/2012</span>
-                                <span class="endDate"> - 12/2012</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Webmaster /  sales technician</h4>
-        
-        
-                    <p class="summary">Creation and maintenance of websites for multiple clients via various cms. (Drupal, prestashop)
-        
-        Project management and customer portfolio
-        
-        SEO optimisation and creation of report with the help of Google Analytics
-        
-        SEA with Google Adwords
-        
-        Customization of the Redmine solution, project management software. (Ruby on Rails)</p>
-        
-                    <ul>
-                        <li>Achievements: Learning different CMS and discovering Ruby, improving my customer portfolio management</li>
-                        <li>skills used: Drupal – Prestashop – Ruby – Rails - PHP – HTML – css -JavaScript - Google Analytics - Google Adwords</li>
-                        <li>Webdigitales is a website development &amp; online sales company</li>
-                        <li>Activity area: Information technologies and services</li>
-                        <li>Team: 5</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">03/2011</span>
-                                <span class="endDate"> - 06/2012</span>
-                        </h5>
-                    </div>
-        
-                    <h4>SEO specialist</h4>
-        
-        
-                    <p class="summary">Realization of SEO optimization in order to propel websites to the top of search engine rankings
-        
-        Implementation of various e-marketing strategies
-        
-        Search for the right keywords to put the site in front of its competitors (based on SEMrush, woorank)</p>
-        
-                    <ul>
-                        <li>Achievements: Learning natural referencing and analysis tools, obtaining the SEO expert certificate</li>
-                        <li>Skills used: Google Analytics, woorank, SEMrush, SEO, customer management</li>
-                        <li>ProduWeb is a specialist in SEO websites on Google</li>
-                        <li>Activity area: Internet</li>
-                        <li>Team: 3</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">05/2010</span>
-                                <span class="endDate"> - 03/2011</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Webdesigner</h4>
-        
-        
-                    <p class="summary">Site creation with Wordpress
-        
-        Creation of themes for Wordpress
-        
-        Creation of layout of internet pages
-        
-        Flash animation creation
-        
-        Implementation of Google Analytics and Google Adwords</p>
-        
-                    <ul>
-                        <li>Achievements: Improvement of customer management and work methodology</li>
-                        <li>Skills used: design - Wordpress - Flash – PHP – HTML - css - JavaScript, customer management - Google Analytics - Google Adwords</li>
-                        <li>Produweb is a web agency specialising in web marketing &amp; technologies</li>
-                        <li>Activity area: Internet</li>
-                        <li>Team: 10</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">12/2009</span>
-                                <span class="endDate"> - 05/2010</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Web and Print Designer</h4>
-        
-        
-                    <p class="summary">Maintenance of existing websites (joomla)
-        
-        Creation of the company&#x27;s e-commerce site (magento)
-        
-        Creation of user manuals for the products sold
-        
-        Creation of paper communications (advertisements ...)
-        
-        Video editing and retouching
-        
-        Creation of flash module for videos streaming
-        
-        SEO optimisation and report with the help of Google Analytics
-        
-        SEA with Google Adwords</p>
-        
-                    <ul>
-                        <li>Achievements: Management of a double job as a print/web graphic designer and developer</li>
-                        <li>Skills used: Design - Print - Magento - Joomla - Flash - Video editing - Suite Adobe - Google Analytics - Google Adwords</li>
-                        <li>Cefaly is the company creator of a neurostimulation device to treat migraines</li>
-                        <li>Activity area: Medical equipments</li>
-                        <li>Team: 8</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">10/2009</span>
-                                <span class="endDate"> - 12/2009</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Flash developer</h4>
-        
-        
-                    <p class="summary">Module/component creation with Flash</p>
-        
-                    <ul>
-                        <li>Achievements: Discovery of the freelance profession, respect of deadlines</li>
-                        <li>Skills used: Flash - actionscript - Suite Adobe</li>
-                        <li>Tagora is a multi-channel digital agency allowing communication on all media for its clients</li>
-                        <li>Activity area: Marketing and Advertising</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">12/2008</span>
-                                <span class="endDate"> - 05/2009</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Web developer</h4>
-        
-        
-                    <p class="summary">Creation of sites made with flash
-        
-        Creation of themes / sites with the Wordpress CMS
-        
-        Maintenance in various html / css / js / php and Flash sites
-        
-        Development of augmented reality with papervision 3D</p>
-        
-                    <ul>
-                        <li>Achievements: Learning how to make a ‘pixel perfect’ web page compared to the original design</li>
-                        <li>Skills used: Wordpress – HTML - css - javascript - Flash - design - paper vision 3D - augmented reality - Suite Adobe</li>
-                        <li>Bureau347 is a digital agency specialising in website creation and advertising</li>
-                        <li>Activity area: Internet</li>
-                        <li>Team: 6</li>
-                    </ul>
-                </section>
-                <section class="item">
-                    <div class="section-header clearfix">
-                        <h5 class="italic pull-right">
-                                <span class="startDate">08/2007</span>
-                                <span class="endDate"> - 09/2007</span>
-                        </h5>
-                    </div>
-        
-                    <h4>Web and Print Designer</h4>
-        
-        
-                    <p class="summary">Creation of various printed documents, Flash animations and web interface design</p>
-        
-                    <ul>
-                        <li>Achievements: Learning PHP, putting the Adobe suite into practice</li>
-                        <li>Skills used: Print - HTML - css - PHP - design - Suite Adobe</li>
-                        <li>Polygone is a multi-support communication agency</li>
-                        <li>Activity area: Marketing and Advertising</li>
-                        <li>Team: 10</li>
-                    </ul>
-                </section>
-        </div>
-        <div class="container education-container">
-            <div class="title">
-            <h3>Education</h3>
-            <div class="keyline"></div>
-        </div> 
-            <section class="item">
-                <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    edX
-            </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">12/2019</span>
-                    <span class="endDate"> - 12/2020</span>
-            </h5>
-        </div>
-         
-                <h4>Harvard Professional certificate Data Science</h4>
-        
-          
-                <ul class="two-column">
-                    <li>Fundamental R programming skills, Statistical concepts such as probability, inference, and modelling and how to apply them in practice, Gain experience with the tidyverse, including data visualisation with ggplot2 and data wrangling with dplyr, Become familiar with essential tools for practising data scientists such as Unix/Linux, git and GitHub, and RStudio, Implement machine learning algorithms, In- depth knowledge of fundamental data science concepts through motivating real-world case studies</li>
-                </ul>
-            </section>
-        
-            <section class="item">
-                <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    Technofutur TIC
-            </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">12/2013</span>
-                    <span class="endDate"> - 12/2013</span>
-            </h5>
-        </div>
-         
-                <h4>IT project management</h4>
-        
-          
-                <ul class="two-column">
-                    <li>Project management methodologies, Technical analysis with UML 2.0, Project monitoring methodology with Agile and SCRUM, IT project management, Service and resource management with ITIL</li>
-                </ul>
-            </section>
-        
-            <section class="item">
-                <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    Technofutur TIC
-            </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">12/2012</span>
-                    <span class="endDate"> - 12/2012</span>
-            </h5>
-        </div>
-         
-                <h4>Veejaying</h4>
-        
-          
-                <ul class="two-column">
-                    <li>Visual creation with Modul8 software and Resolume Avenue</li>
-                </ul>
-            </section>
-        
-            <section class="item">
-                <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    Technocité
-            </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">12/2008</span>
-                    <span class="endDate"> - 12/2009</span>
-            </h5>
-        </div>
-         
-                <h4>Certificat Actionscript Developer</h4>
-        
-          
-                <ul class="two-column">
-                    <li>Flash video animation training, dynamic application creation, ActionScript 3: object oriented</li>
-                </ul>
-            </section>
-        
-            <section class="item">
-                <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    STE-Formations, ULG
-            </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">12/2007</span>
-                    <span class="endDate"> - 12/2007</span>
-            </h5>
-        </div>
-         
-                <h4>Certificat Webdeveloper</h4>
-        
-          
-                <ul class="two-column">
-                    <li></li>
-                </ul>
-            </section>
-        
-            <section class="item">
-                <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    Haute Ecole Albert Jacquard
-            </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">12/2003</span>
-                    <span class="endDate"> - 12/2006</span>
-            </h5>
-        </div>
-         
-                <h4>Bachelors Graphic design</h4>
-        
-              </section>
-        </div>
-        <div class="container references-container">
-            <div class="title">
-                <h3>References</h3>
-                <div class="keyline"></div>
-            </div>
-                <section class="item clearfix">
-                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
-                    <blockquote>
-                        Le grand atout de Julie est qu&#x27;elle dispose d&#x27;un profil complet en Web Design et Developpement. De plus, elle maîtrise les différentes techniques de référencement ce qui lui permet de créer un site web de A à Z et d&#x27;en assurer une visibilité optimale.
-                    </blockquote>
-        
-                    <h5 class="pull-right"> — Prisca Bothy</h5>
-                </section>
-                <section class="item clearfix">
-                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
-                    <blockquote>
-                        Julie est le parfait &quot;Couteau Suisse&quot; du web. Du Graphisme au SEO en passant par l&#x27;intégration, elle est capable de réaliser et gérer un projet Web dans son intégralité.
-        
-        Avide d&#x27;apprendre, elle est toujours à l&#x27;écoute et prête à s&#x27;auto-former. C&#x27;est toujours aussi la première pour aider ses collègues.
-                    </blockquote>
-        
-                    <h5 class="pull-right"> — Dimitri Mallié</h5>
-                </section>
-        </div>
-      </div>
-    </div>
-  </main>
-</body>
-
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+			<h1>Julie Dubois</h1>
+			<h2>Digital analyst / front-end developer / graphic designer</h2>
+			<section id="basics">
+				<div class="summary">
+					<h2>Hello,</h2>
+					<p>In the graphic and multimedia industry mainly in the web world, I evolve as a graphic designer / web designer / front-end developer like a chameleon. Passionate about new technologies, I am constantly looking for ways to improve and gain in efficiency in projects, whether through a new tool or a new way of working.</p>
+				</div>
+			</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			<div class="item">
+				<h3 class="name">
+					Front-end
+				</h3>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS/SASS/SCSS</li>
+					<li>Javascript</li>
+					<li>ReactJS</li>
+					<li>Zurb Foundation</li>
+					<li>Bootstrap</li>
+					<li>Bulma</li>
+					<li>GatsbyJS</li>
+					<li>jQuery</li>
+					<li>GraphQL</li>
+					<li>Styled component</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="name">
+					BACK-END
+				</h3>
+				<ul class="keywords">
+					<li>PHP</li>
+					<li>MySQL</li>
+					<li>Python</li>
+					<li>Wordpress</li>
+					<li>Drupal</li>
+					<li>Magento</li>
+					<li>Prestashop</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="name">
+					WORKFLOW
+				</h3>
+				<ul class="keywords">
+					<li>Responsive Development</li>
+					<li>Package Management &amp; automation</li>
+					<li>webpack</li>
+					<li>node/npm</li>
+					<li>grunt</li>
+					<li>gulp</li>
+					<li>Versioning: Git, SVN</li>
+					<li>Testing (Jest / Enzyme)</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="name">
+					Marketing
+				</h3>
+				<ul class="keywords">
+					<li>Certied SEO expert (June 2011)</li>
+					<li>Google Tag Manager</li>
+					<li>Google analytics</li>
+					<li>Adobe analytics</li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="name">
+					Design
+				</h3>
+				<ul class="keywords">
+					<li>Suite Adobe</li>
+					<li>Sketch</li>
+					<li>Photography</li>
+					<li>Video</li>
+					<li>Illustration</li>
+					<li>Projection Mapping</li>
+					<li>Veejaying</li>
+					<li>3d modeling</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="name">
+					Data science / AI
+				</h3>
+				<ul class="keywords">
+					<li>R</li>
+					<li>Python</li>
+					<li>data analysis</li>
+					<li>ggplot</li>
+				</ul>
+			</div>
+		</section>
+		<section id="languages">
+			<h2>Languages</h2>
+			<div class="item">
+				<div class="language">
+					English
+				</div>
+				<div class="fluency">
+					<small>Professional Working - C1</small>
+				</div>
+			</div>
+			<div class="item">
+				<div class="language">
+					Spanish
+				</div>
+				<div class="fluency">
+					<small>Elementary</small>
+				</div>
+			</div>
+			<div class="item">
+				<div class="language">
+					French
+				</div>
+				<div class="fluency">
+					<small>Native Speaker</small>
+				</div>
+			</div>
+			<div class="item">
+				<div class="language">
+					Dutch
+				</div>
+				<div class="fluency">
+					<small>Elementary - A2</small>
+				</div>
+			</div>
+		</section>
+		<section id="work">
+			<h2>Work</h2>
+			<div class="item">
+				<h3 class="position">
+					Digital analyst (Mobile squad) @ BNP Paribas Fortis
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/the-positive-thinking-company/">Positive Thinking Company</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2021-11-30
+					</span>
+					<span class="endDate">
+						- Present
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Analysing data and formulating strategic advice</li>
+					<li>Create tagging plan and report for new or updated features</li>
+					<li>Performing different analyses as part of continual improvement on the basis of quantitative, qualitative and usability analytics, as well as processing and visualising data</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Work in a different role, changing my mind from dev to marketing...</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>Adobe Analytics, Contentsquare</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>BNP Paribas Fortis is the Belgian bank of the BNP Paribas group, mainly active in the retail and corporate market in Belgium</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Banking</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>10</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Webmaster / Conversion rate optimization &amp; Customer Journey expert @ MediaMarkt
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/the-positive-thinking-company/">Positive Thinking Company</a>
+					<span>(Zellik)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2020-12-31
+					</span>
+					<span class="endDate">
+						- 2021-11-30
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>A/B test and data driven decision to optimise the conversion rate &amp; customer journey</li>
+					<li>Analyse the global user experience across different entry point on the website (homepage, landing page, category page)</li>
+					<li>Work together with business and IT teams (make the bridge between the two, with focus on Business)</li>
+					<li>Help the frontend team. Advise on development, coach and support where needed.</li>
+					<li>Manage the website with a custom CMS and a catalog manager for the listing of product</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Work in an international team, learn fast new skills and improvise a lot of creative solutions in a locked working environment</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>HTML - SASS - JavaScript - Fact-finder - Google Tag Manager - Google analytics</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>MediaMarkt, is a German store chain specializing in consumer electronics and household appliances, number 1 in Europe</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>E-commerce</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>15</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Frontend Web Developer
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/the-positive-thinking-company/">Positive Thinking Company</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2020-10-31
+					</span>
+					<span class="endDate">
+						- 2020-12-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				<br/>
+				<small>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Front-end developer @ Proximus PICKX
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/the-positive-thinking-company/">Positive Thinking Company</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2020-02-28
+					</span>
+					<span class="endDate">
+						- 2020-10-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Pickx is the media platform of Proximus, my role was for Pickx on the web, it is the content of the TV but also dedicated content like articles on various categories (sport, tv, culture), streaming live of festivals, contests. Each page is created dynamically based on different feeds of data so it was never possible to know in advance what will look the page, for example a simple article with a picture and text and a complex page with images, text, video, a table of score ... use the same template. I was in charge to create and update the different template and element of the web application in a way to be reusable in every context.</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Learn a new workflow with development servers only accessible by SSH and a huge use of git</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>HTML - SASS - Bootstrap - Javascript - PHP - Twig - Git - Scrum - Jira</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Pickx is the Proximus media platform available on the Internet</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Telecommunication</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>20</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Front-end developer @ Proximus
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/the-positive-thinking-company/">Positive Thinking Company</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2018-01-31
+					</span>
+					<span class="endDate">
+						- 2020-02-28
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Proximus.be: Proximus is constantly adapting the design of the website, for that there is a custom-made library of HTML/css elements. The role was to update the library with the new design so it’s applied everywhere in one shot and also creating new elements. I also update structural components like for example the header, the goal was to make the JavaScript work with each different version (10 versions). A new requirement was also to make the website for people with disabilities, so we also update the library to make it WAI compliant.</li>
+					<li>Proximus webshop: based on the requirements of a user experience expert and a designer, the order flow needed to be recreated. It is a dynamic form, which is transformed for each client according to their needs and technical criteria. At the front-end development level, it was necessary to create a structure capable of adapting to each variant and visually easy to understand.</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Working for 2 teams and managing to keep the deadlines</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>HTML - SASS - Foundation 5 - Javascript - Razor - Magnolia CMS - Git - Scrum - Jira</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Telecommunication</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>40</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Front-end developer / project manager @ Engie
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/the-positive-thinking-company/">Positive Thinking Company</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2016-12-31
+					</span>
+					<span class="endDate">
+						- 2018-01-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Participation in the creation of the new website and rebranding of Engie</li>
+					<li>Maintenance and updating of the various Engie websites</li>
+					<li>Maintenance and creation of templates for e-mailing</li>
+					<li>Creation of reusable macros in the Teamsite CMS to help the work of content editors</li>
+					<li>Technical analysis and testing of solutions developed for new web applications</li>
+					<li>Creation of an innovative concept using the Engie box as well as various smart objects (watch, Sonos, Philips Hue) in order to create personalized atmospheres</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Improvement of my front-end skills, basic learning of IoT manipulation</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>HTML - SASS - Javascript - image edition - PHP - Wordpress - FTL (freemarker) - Teamsite - Smartfocus - API - Android development - GIT - NodeJS - Scrum - Google Analytics - Jira</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Engie is a French energy industrial group.</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Energy</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>20</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Webdesigner - integrator @ Proximus
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/harvey-nash/">Harvey Nash</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2013-08-31
+					</span>
+					<span class="endDate">
+						- 2016-11-30
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Creating pages as an integrator</li>
+					<li>Creation and maintenance of JavaScript applications</li>
+					<li>Maintenance ‘day-to-day’ of the website by updating pages and applications in Magnolia and Teamsite</li>
+					<li>When moving from Belgacom to Proximus, teamwork on the creation of a personalized css library (Zurb foundation type)</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Improved my long-term vision for the application of HTML/CSS components to create reusable objects</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>HTML - SASS - Foundation 5 - Javascript - AngularJS - Razor - video edition - PHP - Wordpress - Teamsite - Magnolia CMS - SVN - NodeJS</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Proximus is a telecommunications service provider (Mobile, TV, Internet, fixed line) and also offers the purchase of linked products.</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Telecommunication</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>30</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Webmaster /  sales technician
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/webdigitales/">WebDigitales</a>
+					<span>(Ciney)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2012-06-30
+					</span>
+					<span class="endDate">
+						- 2012-12-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Creation and maintenance of websites for multiple clients via various cms. (Drupal, prestashop)</li>
+					<li>Project management and customer portfolio</li>
+					<li>SEO optimisation and creation of report with the help of Google Analytics</li>
+					<li>SEA with Google Adwords</li>
+					<li>Customization of the Redmine solution, project management software. (Ruby on Rails)</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Learning different CMS and discovering Ruby, improving my customer portfolio management</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>Drupal – Prestashop – Ruby – Rails - PHP – HTML – css -JavaScript - Google Analytics - Google Adwords</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Webdigitales is a website development &amp; online sales company</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Information technologies and services</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>5</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					SEO specialist
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/produweb-agence-de-communication/">ProduWeb</a>
+					<span>(Liège)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2011-03-31
+					</span>
+					<span class="endDate">
+						- 2012-06-30
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Realization of SEO optimization in order to propel websites to the top of search engine rankings</li>
+					<li>Implementation of various e-marketing strategies</li>
+					<li>Search for the right keywords to put the site in front of its competitors (based on SEMrush, woorank)</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Learning natural referencing and analysis tools, obtaining the SEO expert certificate</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>Google Analytics, woorank, SEMrush, SEO, customer management</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>ProduWeb is a specialist in SEO websites on Google</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Internet</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>3</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Webdesigner
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/produweb-agence-de-communication/">ProduWeb</a>
+					<span>(Liège)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2010-05-31
+					</span>
+					<span class="endDate">
+						- 2011-03-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Site creation with Wordpress</li>
+					<li>Creation of themes for Wordpress</li>
+					<li>Creation of layout of internet pages</li>
+					<li>Flash animation creation</li>
+					<li>Implementation of Google Analytics and Google Adwords</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Improvement of customer management and work methodology</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>design - Wordpress - Flash – PHP – HTML - css - JavaScript, customer management - Google Analytics - Google Adwords</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Produweb is a web agency specialising in web marketing &amp; technologies</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Internet</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>10</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Web and Print Designer
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/cefaly/">STX-Med</a>
+					<span>(Liège)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2009-12-31
+					</span>
+					<span class="endDate">
+						- 2010-05-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Maintenance of existing websites (joomla)</li>
+					<li>Creation of the company&#x27;s e-commerce site (magento)</li>
+					<li>Creation of user manuals for the products sold</li>
+					<li>Creation of paper communications (advertisements ...)</li>
+					<li>Video editing and retouching</li>
+					<li>Creation of flash module for videos streaming</li>
+					<li>SEO optimisation and report with the help of Google Analytics</li>
+					<li>SEA with Google Adwords</li>
+				</ul>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Cefaly is the company creator of a neurostimulation device to treat migraines</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Medical equipments</p>
+				</div>
+				<div class="team">
+					<p><strong>Team: </strong>8</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Flash developer
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/tagora/">Tagora</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2009-10-31
+					</span>
+					<span class="endDate">
+						- 2009-12-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Module/component creation with Flash</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Discovery of the freelance profession, respect of deadlines</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>Flash - actionscript - Suite Adobe</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Tagora is a multi-channel digital agency allowing communication on all media for its clients</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Marketing and Advertising</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Web developer
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/bureau347/">Bureau347</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2008-12-31
+					</span>
+					<span class="endDate">
+						- 2009-05-31
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Creation of sites made with flash</li>
+					<li>Creation of themes / sites with the Wordpress CMS</li>
+					<li>Maintenance in various html / css / js / php and Flash sites</li>
+					<li>Development of augmented reality with papervision 3D</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Learning how to make a ‘pixel perfect’ web page compared to the original design</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>Wordpress – HTML - css - javascript - Flash - design - paper vision 3D - augmented reality - Suite Adobe</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Bureau347 is a digital agency specialising in website creation and advertising</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Internet</p>
+				</div>
+				</small>
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Web and Print Designer
+				</h3>
+				<div class="name">
+						<a href="https://www.linkedin.com/company/polygone-group/">Polygone Group</a>
+					<span>(Brussels)</span>
+				</div>	
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2007-08-31
+					</span>
+					<span class="endDate">
+						- 2007-09-30
+					</span>
+					</small>
+				</div>
+				<br/>
+				My tasks:
+				<ul class="highlights">
+					<li>Creation of various printed documents, Flash animations and web interface design</li>
+				</ul>
+				<div class="achievements">
+					<p><strong>Achievements: </strong>Learning PHP, putting the Adobe suite into practice</p>
+				</div>
+				<div class="skills">
+					<p><strong>Skills used: </strong>Print - HTML - css - PHP - design - Suite Adobe</p>
+				</div>
+				<br/>
+				<small>
+				<div class="what">
+					<p>Polygone is a multi-support communication agency</p>
+				</div>
+				<div class="area">
+					<p><strong>Area: </strong>Marketing and Advertising</p>
+				</div>
+				</small>
+			</div>
+		</section>
+		<section id="education">
+			<h2>Education</h2>
+			<div class="item">
+				<h3 class="area">
+					Data Science 		
+					
+				</h3>
+					<span class="institution">
+						edX
+					</span>
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2019-12-31
+					</span>
+					<span class="endDate">
+						- 2020-12-31
+					</span>
+					</small>
+				</div>
+		
+				
+				<ul class="courses">
+					<li>Fundamental R programming skills, Statistical concepts such as probability, inference, and modelling and how to apply them in practice, Gain experience with the tidyverse, including data visualisation with ggplot2 and data wrangling with dplyr, Become familiar with essential tools for practising data scientists such as Unix/Linux, git and GitHub, and RStudio, Implement machine learning algorithms, In- depth knowledge of fundamental data science concepts through motivating real-world case studies</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="area">
+					IT project management 		
+					
+				</h3>
+					<span class="institution">
+						Technofutur TIC
+					</span>
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2013-12-31
+					</span>
+					<span class="endDate">
+						- 2013-12-31
+					</span>
+					</small>
+				</div>
+		
+				
+				<ul class="courses">
+					<li>Project management methodologies, Technical analysis with UML 2.0, Project monitoring methodology with Agile and SCRUM, IT project management, Service and resource management with ITIL</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="area">
+					Veejaying 		
+					
+				</h3>
+					<span class="institution">
+						Technofutur TIC
+					</span>
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2012-12-31
+					</span>
+					<span class="endDate">
+						- 2012-12-31
+					</span>
+					</small>
+				</div>
+		
+				
+				<ul class="courses">
+					<li>Visual creation with Modul8 software and Resolume Avenue</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="area">
+					Actionscript Developer 		
+					
+				</h3>
+					<span class="institution">
+						Technocité
+					</span>
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2008-12-31
+					</span>
+					<span class="endDate">
+						- 2009-12-31
+					</span>
+					</small>
+				</div>
+		
+				
+				<ul class="courses">
+					<li>Flash video animation training, dynamic application creation, ActionScript 3: object oriented</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="area">
+					Webdeveloper 		
+					
+				</h3>
+					<span class="institution">
+						STE-Formations, ULG
+					</span>
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2007-12-31
+					</span>
+					<span class="endDate">
+						- 2007-12-31
+					</span>
+					</small>
+				</div>
+		
+				
+			</div>
+			<div class="item">
+				<h3 class="area">
+					Graphic design 		
+					
+				</h3>
+					<span class="institution">
+						Haute Ecole Albert Jacquard
+					</span>
+				<div class="date">
+					<small>
+					<span class="startDate">
+						2003-12-31
+					</span>
+					<span class="endDate">
+						- 2006-12-31
+					</span>
+					</small>
+				</div>
+		
+				
+			</div>
+		</section>
+		<section id="certificates">
+			<h2>Certificates</h2>
+			<div class="item">
+				<h3 class="position">
+					Themed Environment Design 
+		            
+				</h3>
+		            <span class="institution">
+		                CGMA | Computer Graphics Master Academy
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2022-03-31
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Become A Conversion Rate Optimization (CRO) Expert 
+		            
+				</h3>
+		            <span class="institution">
+		                Udemy
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2021-05-31
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Advanced Google Analytics 
+		            
+				</h3>
+		            <span class="institution">
+		                Google
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2021-04-30
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Google Analytics for Beginners 
+		            
+				</h3>
+		            <span class="institution">
+		                Google
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2021-03-31
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Google tag manager fundamentals 
+		            
+				</h3>
+		            <span class="institution">
+		                Google
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2021-01-31
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: Machine Learning (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2020-01-31
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: Inference and Modeling (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2019-06-30
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: Linear Regression (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2019-06-30
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: Productivity Tools (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2019-06-30
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: Wrangling (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2019-06-30
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: Probability (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2019-05-31
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: Visualization (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2019-04-30
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Data Science: R Basics (HarvardX) 
+		            
+				</h3>
+		            <span class="institution">
+		                edX
+		            </span>
+				<div class="date">
+		            <small>
+					<span class="startDate">
+						2019-02-28
+					</span>
+		            </small>
+				</div>
+				
+			</div>
+			<div class="item">
+				<h3 class="position">
+					Expert SEO 
+		            
+				</h3>
+		            <span class="institution">
+		                Certification Expert SEO de l&#x27;association SEO Camp
+		            </span>
+				<div class="date">
+		            <small>
+		            </small>
+				</div>
+				
+			</div>
+		</section>
+		<section id="references">
+			<h2>References</h2>
+			<div class="item">
+				<blockquote class="reference">
+					Le grand atout de Julie est qu&#x27;elle dispose d&#x27;un profil complet en Web Design et Developpement. De plus, elle maîtrise les différentes techniques de référencement ce qui lui permet de créer un site web de A à Z et d&#x27;en assurer une visibilité optimale.
+				</blockquote>
+				<div class="name">
+					— Prisca Bothy
+				</div>
+			</div>
+			<div class="item">
+				<blockquote class="reference">
+					Julie est le parfait &quot;Couteau Suisse&quot; du web. Du Graphisme au SEO en passant par l&#x27;intégration, elle est capable de réaliser et gérer un projet Web dans son intégralité.
+		
+		Avide d&#x27;apprendre, elle est toujours à l&#x27;écoute et prête à s&#x27;auto-former. C&#x27;est toujours aussi la première pour aider ses collègues.
+				</blockquote>
+				<div class="name">
+					— Dimitri Mallié
+				</div>
+			</div>
+		</section>
+	</body>
 </html>

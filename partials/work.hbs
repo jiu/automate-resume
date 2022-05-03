@@ -10,10 +10,14 @@
 		{{/if}}
 		{{#if name}}
 		<div class="name">
-			{{name}} 
-		</div>
+			{{#if url}}
+				<a href="{{url}}">{{name}}</a>
+			{{/if}}	
+			<span>{{#if location}}({{location}}){{/if}}</span>
+		</div>	
 		{{/if}}
 		<div class="date">
+			<small>
 			{{#if startDate}}
 			<span class="startDate">
 				{{startDate}}
@@ -28,25 +32,51 @@
 				- Present
 			</span>
 			{{/if}}
+			</small>
 		</div>
-		
-		{{#if website}}
-		<div class="website">
-			<a href="{{website}}">{{website}}</a>
-		</div>
-		{{/if}}
+		<br/>
 		{{#if summary}}
 		<div class="summary">
+			What I liked:
 			<p>{{summary}}</p>
 		</div>
 		{{/if}}
 		{{#if highlights.length}}
+		My tasks:
 		<ul class="highlights">
 			{{#each highlights}}
 			<li>{{.}}</li>
 			{{/each}}
 		</ul>
 		{{/if}}
+		{{#if achievements}}
+		<div class="achievements">
+			<p><strong>Achievements: </strong>{{achievements}}</p>
+		</div>
+		{{/if}}
+		{{#if skills}}
+		<div class="skills">
+			<p><strong>Skills used: </strong>{{skills}}</p>
+		</div>
+		{{/if}}
+		<br/>
+		<small>
+		{{#if what}}
+		<div class="what">
+			<p>{{what}}</p>
+		</div>
+		{{/if}}
+		{{#if area}}
+		<div class="area">
+			<p><strong>Area: </strong>{{area}}</p>
+		</div>
+		{{/if}}
+		{{#if team}}
+		<div class="team">
+			<p><strong>Team: </strong>{{team}}</p>
+		</div>
+		{{/if}}
+		</small>
 	</div>
 	{{/each}}
 </section>
