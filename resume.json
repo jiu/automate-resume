@@ -6,8 +6,10 @@
   },
   "basics": {
     "name": "Julie Dubois",
+    "fisrtname": "Julie",
+    "lastname": "Dubois",
     "label": "Digital analyst / front-end developer / graphic designer",
-    "image": "",
+    "image": "IMG_20160523_131308.jpg",
     "email": "julie@iamjiu.eu",
     "website": "http://www.iamjiu.eu",
     "phone": "+32 (0) 497 60 52 53",
@@ -20,15 +22,18 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA/"
+        "url": "https://www.linkedin.com/in/ACoAAAKY9r0B0f3gpS3VUgnv625kR2zYx9FAQzA/",
+        "icon": "ImLinkedin"
       },
       {
         "url": "https://github.com/jiu",
-        "network": "Github"
+        "network": "Github",
+        "icon": "ImGithub"
       },
       {
         "url": "https://www.instagram.com/jiu_iam/",
-        "network": "Instagram"
+        "network": "Instagram",
+        "icon": "ImInstagram"
       }
     ]
   },
@@ -226,8 +231,8 @@
       "position": "Web and Print Designer",
       "startDate": "2009-12-31",
       "endDate": "2010-05-31",
-      "Achievements": "Management of a double job as a print/web graphic designer and developer",
-      "Skills used": "Design - Print - Magento - Joomla - Flash - Video editing - Suite Adobe - Google Analytics - Google Adwords",
+      "achievements": "Management of a double job as a print/web graphic designer and developer",
+      "skills": "Design - Print - Magento - Joomla - Flash - Video editing - Suite Adobe - Google Analytics - Google Adwords",
       "what": "Cefaly is the company creator of a neurostimulation device to treat migraines",
       "area": "Medical equipments",
       "team": "8",
@@ -259,7 +264,8 @@
       ],
       "summary": "",
       "url": "https://www.linkedin.com/company/tagora/",
-      "location": "Brussels"
+      "location": "Brussels",
+      "team": "1"
     },
     {
       "name": "Bureau347",
@@ -270,7 +276,7 @@
       "skills": "Wordpress – HTML - css - javascript - Flash - design - paper vision 3D - augmented reality - Suite Adobe",
       "what": "Bureau347 is a digital agency specialising in website creation and advertising",
       "area": "Internet",
-      "Team": "6",
+      "team": "6",
       "highlights": [
         "Creation of sites made with flash",
         "Creation of themes / sites with the Wordpress CMS",
@@ -290,7 +296,7 @@
       "skills": "Print - HTML - css - PHP - design - Suite Adobe",
       "what": "Polygone is a multi-support communication agency",
       "area": "Marketing and Advertising",
-      "Team": "10",
+      "team": "10",
       "highlights": [
         "Creation of various printed documents, Flash animations and web interface design"
       ],
@@ -534,11 +540,19 @@
   "languages": [
     {
       "fluency": "Professional Working - C1",
-      "language": "English"
+      "language": "English",
+      "understanding": 4,
+      "reading": 4,
+      "writing": 3,
+      "speaking": 3
     },
     {
       "fluency": "Elementary",
-      "language": "Spanish"
+      "language": "Spanish",
+      "understanding": 2,
+      "reading": 2,
+      "writing": 1,
+      "speaking": 1
     },
     {
       "fluency": "Native Speaker",
@@ -546,7 +560,19 @@
     },
     {
       "fluency": "Elementary - A2",
-      "language": "Dutch"
+      "language": "Dutch",
+      "understanding": 2,
+      "reading": 2,
+      "writing": 1,
+      "speaking": 1
+    },
+    {
+      "fluency": "basis",
+      "language": "Portuguese",
+      "understanding": 2,
+      "reading": 2,
+      "writing": 1,
+      "speaking": 1
     }
   ],
   "interests": [],
